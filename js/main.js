@@ -10,9 +10,20 @@ $('#menu-mask').on('click', function() {
     $("#menu-bar").removeClass("on");
 });
 
+// TOP画像の切り替え
+jQuery(function($) {
+    $('.parallax-bg').bgSwitcher({
+        images: ['./img/photo/top_001.png','./img/photo/top_002.png','./img/photo/top_003.png','./img/photo/top_004.png','./img/photo/top_005.png','./img/photo/top_006.png'],
+        interval: 5000,
+        loop: true,
+        effect: "fade",
+        width: "100%",
+        duration: 2000,
+        easing: "swing"
+    });
+});
 
-
-// スクロール
+// スクロールする時の動作やスピード
 $('a[href^=#]').click(function() {
     var speed = 500; // スクロール速度(ミリ秒)
     var href = $(this).attr("href");
@@ -63,6 +74,7 @@ $('#move-arrow-area').on('click', function() {
 });
 
 
+// こだわりのコンテンツを非表示にしておく
 $('.animation').css('visibility','hidden');
 $(window).scroll(function(){
     var windowHeight = $(window).height(),
@@ -77,13 +89,14 @@ $(window).scroll(function(){
 });
 
 
-jQuery(function($) {
-    $('.parallax-bg').bgSwitcher({
-        images: ['./img/photo/top_001.png','./img/photo/top_002.png','./img/photo/top_003.png','./img/photo/top_004.png','./img/photo/top_005.png','./img/photo/top_006.png'],
-        interval: 5000,
-        loop: true,
-        effect: "fade",
-        duration: 2000,
-        easing: "swing"
-    });
+// スクロールしたら
+$(window).scroll(function () {
+    topWindow = $(window).scrollTop();
+    const access = $('#access').offset().top - 68;
+    if( topWindow >= access  ){
+            $("#move-arrow-area").addClass("back-to-top");
+    }else{
+        $("#move-arrow-area").removeClass("back-to-top");
+    }
 });
+

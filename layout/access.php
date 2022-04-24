@@ -15,7 +15,7 @@
             </div>
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >住所</div>
-                <div class='access-content' >港区東麻布 2 丁目 30-9</div>
+                <div class='access-content' >港区東麻布 2丁目 30 - 9 - 1F</div>
             </div>
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >電話番号</div>
@@ -35,7 +35,10 @@
             </div>
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >ご予約</div>
-                <div class='access-content' ></div>
+                <div class='access-content' >
+                    03-6459-1250（9:00～21:00）<br>
+                    ※お食事／テイクアウトのご予約はお電話からのみ受け付けております。何卒、ご了承ください。
+                </div>
             </div>
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >交通手段</div>

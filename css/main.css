@@ -469,6 +469,12 @@ p{
 .move-arrow-area:hover{
     bottom: 80px;
 }
+.move-arrow-area.back-to-top{
+    transform: rotate(180deg);
+}
+.move-arrow-area.back-to-top:hover{
+    bottom: 120px;
+}
 
 .move-arrow{
     position: relative;
