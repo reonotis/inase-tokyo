@@ -25,15 +25,13 @@
     <!-- <meta itemprop="image" content="https://www.sushi-lenge.com/wp-content/uploads/logo_ogp.jpg" /> -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
-    <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-11/js/8-11.js" ></script>
+    <!-- <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-11/js/8-11.js" ></script> -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
-
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="//unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="//unpkg.com/swiper/swiper-bundle.min.css"> -->
 
-<script src="//unpkg.com/swiper/swiper-bundle.min.js"></script>
-
+    <!-- <script src="//unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 
     <link href="../css/main.css?<?= date('YmdHis')?>" rel="stylesheet" >
 
