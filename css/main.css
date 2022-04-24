@@ -12,7 +12,6 @@ html {
     background: #fff;
 }
 body{
-    width: 100%;
     position: relative;
     background: var(--main-color);
     margin: 0;
@@ -272,6 +271,15 @@ a{
 }
 
 
+@media (max-width: 670px){
+    .greeting-wrapper{
+        font-size: 1em;
+    }
+    .greeting-text{
+        font-size: 1em;
+    }
+}
+
 
 
 
@@ -353,6 +361,15 @@ a{
                 1px 1px 3px #111;
 }
 
+@media (max-width: 670px){
+    .commitment-content-wrapper{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+
 
 
 
@@ -394,6 +411,22 @@ a{
 .important-span{
     color: red;
 }
+
+@media (max-width: 670px){
+    .notice-content-row{
+        display: block;
+    }
+    .notice-content-image{
+        width: 100%;
+    }
+    .notice-contents{
+        width: 100%;
+    }
+}
+
+
+
+
 
 
 /*  */
@@ -440,6 +473,23 @@ a{
 .access-content{
     width: calc(100% - var(--access-content-wrapper-width));
 }
+
+
+@media (max-width: 670px){
+    .access-area{
+        display: block;
+    }
+    .access-map{
+        width: 100%;
+    }
+    .access-contents{
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+
+
 
 
 
@@ -515,7 +565,6 @@ p{
     .sp-hidden{
         display: none;
     }
-
 }
 
 
