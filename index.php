@@ -3,6 +3,13 @@
 <html lang="ja">
     <body>
         <?php include './layout/header.php'; ?>
+        <div class="img-list-bg-black" >
+            <img src="./img/logo/top_logo.png" class="top-logo-1" >
+            <div class="img-list" >
+                <!-- <img src="./img/photo/top_001.png" id="img-list-001" >
+                <img src="./img/photo/top_002.png" id="img-list-002" > -->
+            </div>
+        </div>
         <?php include './layout/button/reserve_button.php'; ?>
         <div class="top-image-section" >
             <div class="parallax-bg" id="top" ><img src="./img/logo/top_logo.png" class="top-logo" ></div>
