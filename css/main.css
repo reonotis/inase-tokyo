@@ -215,6 +215,14 @@ a{
 }
 
 
+.top-image-section{
+    width: 100%;
+    display: block;
+}
+.top-image-section>div{
+    /* width: 100% !important; */
+}
+
 .parallax-bg {
     box-sizing: border-box;
     color: #fff;
