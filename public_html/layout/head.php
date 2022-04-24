@@ -33,6 +33,6 @@
 
     <!-- <script src="//unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 
-    <link href="../css/main.css?<?= date('YmdHis')?>" rel="stylesheet" >
+    <link href="./css/main.css?<?= date('YmdHis')?>" rel="stylesheet" >
 
 </head>

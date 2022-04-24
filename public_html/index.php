@@ -66,4 +66,4 @@
     </body>
 </html>
 
-<script src="../js/main.js?<?= date('YmdHis')?>"></script>
+<script src="./js/main.js?<?= date('YmdHis')?>"></script>
