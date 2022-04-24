@@ -40,30 +40,7 @@
             </div>
         </div>
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.BgSwitcher/0.4.3/jquery.bgswitcher.min.js" integrity="sha512-cwDh42ooq48+o2kkbsn72Kwd9/Ghc34d48DFlNfOCRFJ1dM6EeIFs9d7PIBa4SSv6enwQAYmxsLZGgKOV0yE1A==" crossorigin="anonymous"></script>
-<script src="./js/jquery.bgswitcher.js"></script>
-<style>
-
-
-</style>
-
-<script>
-    jQuery(function($) {
-        $('.parallax-bg').bgSwitcher({
-            images: ['./img/photo/top_001.jpg','./img/photo/top_002.jpg','./img/photo/top_003.jpg','./img/photo/top_004_KARI.jpg','./img/photo/top_005.jpg','./img/photo/top_006.jpg'],
-            interval: 5000,
-            loop: true,
-            effect: "fade",
-            duration: 2000,
-            easing: "swing"
-        });
-    });
-</script>
-
-
+        <script src="./js/main.js?<?= date('YmdHis')?>"></script>
 
     </body>
 </html>
-
-<script src="./js/main.js?<?= date('YmdHis')?>"></script>

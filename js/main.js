@@ -77,26 +77,13 @@ $(window).scroll(function(){
 });
 
 
-
-//
-// $(function(){
-//     $(window).on('load scroll',function (){
-//         $('.animation').each(function(){
-//             //ターゲットの位置を取得
-//             var target = $(this).offset().top;
-//             //スクロール量を取得
-//             var scroll = $(window).scrollTop();
-//             //ウィンドウの高さを取得
-//             var height = $(window).height();
-//             //ターゲットまでスクロールするとフェードインする
-//             if (scroll > target - height){
-//                 //クラスを付与
-//                 $(this).addClass('active');
-//                 // TODO 2秒後にテキストをじわっと
-//                 // $(this).children('img')
-//             }
-//         });
-//     });
-// });
-
-
+jQuery(function($) {
+    $('.parallax-bg').bgSwitcher({
+        images: ['./img/photo/top_001.png','./img/photo/top_002.png','./img/photo/top_003.png','./img/photo/top_004.png','./img/photo/top_005.png','./img/photo/top_006.png'],
+        interval: 5000,
+        loop: true,
+        effect: "fade",
+        duration: 2000,
+        easing: "swing"
+    });
+});

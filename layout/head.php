@@ -10,6 +10,7 @@
     <!-- <meta name="description"  content="大阪市中央区にある「鮨れんげ」はオフィスビルが立ち並ぶ大阪の北浜エリアにございます。二階には個室もあり、接待やご宴会などにもおすすめです。広々とした寛ぎの空間で、旬の食材を使用したこだわりの寿司をお楽しみください。" /> -->
     <meta name="keywords"  content="ビーガン,和食,割烹,テイクアウト" />
 
+    <link rel="icon" href="../img/logo/favicon.png">
 
     <!-- <link rel="canonical" href="https://www.sushi-lenge.com/" /> -->
     <!-- <meta property="og:title" content="旬のネタを豊富に揃え、極上の味をご提供します｜鮨れんげ" /> -->
@@ -25,14 +26,13 @@
     <!-- <meta itemprop="image" content="https://www.sushi-lenge.com/wp-content/uploads/logo_ogp.jpg" /> -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
-    <!-- <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-11/js/8-11.js" ></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="//unpkg.com/swiper/swiper-bundle.min.css"> -->
-
-    <!-- <script src="//unpkg.com/swiper/swiper-bundle.min.js"></script> -->
-
     <link href="./css/main.css?<?= date('YmdHis')?>" rel="stylesheet" >
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.BgSwitcher/0.4.3/jquery.bgswitcher.min.js" integrity="sha512-cwDh42ooq48+o2kkbsn72Kwd9/Ghc34d48DFlNfOCRFJ1dM6EeIFs9d7PIBa4SSv6enwQAYmxsLZGgKOV0yE1A==" crossorigin="anonymous"></script>
+
+    <script src="./js/jquery.bgswitcher.js"></script>
 
 </head>

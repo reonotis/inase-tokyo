@@ -1,7 +1,7 @@
 <div class='commitment-section' >
     <div class='commitment-contents-area animation' id='content_1' >
         <div class='commitment-content-image' >
-            <img src='./img/photo/commitment_01.jpg' >
+            <img src='./img/photo/commitment_01.png' >
         </div>
         <div class='commitment-content-wrapper' >
             <div class='commitment-content-title' >こだわりの旬の食材を<br>こころゆくまでお愉しみください
@@ -26,7 +26,7 @@
     </div>
     <div class='commitment-contents-area animation' id='content_3' >
         <div class='commitment-content-image' >
-            <img src='./img/photo/commitment_03.jpg' >
+            <img src='./img/photo/commitment_03.png' >
         </div>
         <div class='commitment-content-wrapper' >
             <div class='commitment-content-title' >お好みやご気分にあわせたお酒で<br>お食事をさらに満ち足りた時間に
