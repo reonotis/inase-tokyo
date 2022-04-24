@@ -41,6 +41,5 @@
         </div>
 
         <script src="./js/main.js?<?= date('YmdHis')?>"></script>
-
     </body>
 </html>
