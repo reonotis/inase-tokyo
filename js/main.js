@@ -17,7 +17,6 @@ jQuery(function($) {
         interval: 5000,
         loop: true,
         effect: "fade",
-        width: "100%",
         duration: 2000,
         easing: "swing"
     });
