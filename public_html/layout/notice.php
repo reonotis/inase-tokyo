@@ -4,7 +4,7 @@
     <div class='notice-area' >
         <div class='flex notice-content-row' >
             <div class='notice-content-image' >
-                <img src='../img/photo/lunch_01.png' >
+                <img src='./img/photo/lunch_01.png' >
             </div>
             <div class='notice-contents' >
                 <div class='notice-content-wrapper' >ランチメニューのご紹介<span class="notice-content-support" >テイクアウト承ります（デリバリー準備中）</span></div>
