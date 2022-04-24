@@ -1,0 +1,595 @@
+/* 共通定義 */
+:root {
+    --main-color: #fff;
+    --access-content-wrapper-width: 100px;
+    --notice-content-image-width: 400px;
+    --access-map-width: 50%;
+    --section-margin-top: 90px;
+    --break-point-sp: 670px;
+}
+
+html {
+    background: #fff;
+}
+body{
+    position: relative;
+    background: var(--main-color);
+    margin: 0;
+    padding: 0 50px 20px;
+    font-family: "Noto Serif JP", "游明朝", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "Times New Roman", Times, Garamond, Georgia, serif !important;
+}
+header{
+    position: fixed;
+    width: calc( 100% - 100px);
+    margin-bottom: 20px;
+    padding: 20px 0;
+    background :white;
+    align-items: center;
+    z-index: 800;
+}
+@media (max-width: 670px){
+    body{
+        padding: 0 20px 20px;
+    }
+    header{
+        width: calc( 100% - 40px);
+    }
+}
+
+
+.flex{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+h2{
+    width: 100%;
+    margin: 0 auto 30px;
+    text-align: center;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.h2-logo:before{
+    content: "";
+    display: inline-block;
+    background: url(../img/logo/h_logo_ja.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.h2-logo>p{
+    z-index: 10;
+}
+a{
+    color: #333;
+}
+
+
+
+
+
+
+/* メニュー関連 */
+.hamburger{
+    position:relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+}
+.hamburger::before,
+.hamburger::after{
+    position: absolute;
+    top: 9px;
+    content: "";
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background: #333;
+}
+.hamburger::after{
+    top: 18px;
+}
+.menu-mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #111a;
+    z-index: 1000;
+}
+.menu-bar{
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    left: -220px;
+    padding: 20px 10px;
+    background: #fff;
+    z-index: 1001;
+    transition: 0.2s;
+}
+.menu-bar.on{
+    left: 0;
+}
+.menu-bar>ul{
+    padding: 0;
+}
+.menu-bar>ul>li{
+    list-style-type: none;
+    margin: 0 0 10px;
+}
+.sns-area {
+    margin: 0 0 0 auto;
+}
+.sns-contents{
+    padding: 0 15px;
+    margin: 0 0 0 10px;
+    font-size: 1.3em;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.sns-contents:hover{
+    margin: 0 10px 0 0;
+}
+
+.sns-contents > img{
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+.language-change-btn{
+    background: #ccc;
+}
+
+@media (max-width: 670px){
+    .sns-contents{
+        padding: 0 5px;
+        margin: 0;
+    }
+    .sns-contents:hover{
+        margin: 0;
+    }
+}
+
+
+
+
+.side-menu{
+    font-weight: 600;
+}
+.side-menu > li > a{
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.side-menu > li > a:hover{
+    padding : 0 0 0 5px;
+}
+
+
+
+
+
+
+
+
+/* 予約button */
+.reserve-section{
+    position: fixed;
+    top: 40%;
+    color: #fff;
+    background: red;
+    border: solid 1px red;
+    right: 30px;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    padding: 30px 10px;
+    transition: 0.2s;
+    z-index: 500;
+}
+.reserve-section:hover{
+    top: 39%;
+    color: red;
+    background: #fff;
+    border: solid 1px red;
+    padding: 40px 12px;
+    z-index: 500;
+}
+@media (max-width: 670px){
+    .reserve-section{
+        right: 0;
+    }
+}
+
+
+.parallax-bg {
+    box-sizing: border-box;
+    color: #fff;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    animation: image_anime 50s ease infinite;
+    z-index: 10;
+    object-fit: cover;
+
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.top-logo{
+    position: relative;
+    top: 100px;
+    height: 500px;
+    z-index: 20;
+}
+@media (max-width: 670px){
+    .top-logo{
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.greeting-wrapper{
+    font-size: 2.8em;
+    text-shadow: -1px -1px 3px #333,
+                1px 1px 3px #111;
+}
+.greeting-text{
+    font-size: 1.5em;
+    margin: 0 0 50px;
+    line-height: 1.8;
+    text-shadow: -1px -1px 3px #333,
+                1px 1px 3px #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.parallax-bg-text-area{
+    z-index: 20;
+    padding: 0 10px;
+}
+
+
+.commitment-section{
+    padding: var(--section-margin-top) 0 0;
+}
+.notice-section{
+    padding: var(--section-margin-top) 0 100px;
+}
+.access-section{
+    padding: var(--section-margin-top) 0 100px;
+}
+
+
+
+
+/* こだわり */
+
+.commitment-contents-area{
+    width: 100%;
+    position: relative;
+    margin: 0 0 100px;
+}
+.commitment-content-image{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+.commitment-content-image::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #1115;
+}
+
+
+.commitment-content-image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.commitment-content-wrapper{
+    visibility: hidden;
+    display: table;
+    width: 50%;
+    position: absolute;
+    color: var(--main-color);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.commitment-content-title{
+    font-size: 2.5em;
+    margin: 0 0 20px;
+    text-shadow: -1px -1px 3px #333,
+                1px 1px 3px #111;
+}
+.commitment-content-content{
+    font-size: 1.2em;
+    text-shadow: -1px -1px 3px #333,
+                1px 1px 3px #111;
+}
+
+
+
+
+
+
+
+/* お知らせ */
+.notice-content-row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.notice-content-image{
+    width: var(--notice-content-image-width);
+    height: 280px;
+}
+.notice-content-image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.notice-contents{
+    width: calc(100% - var(--notice-content-image-width));
+}
+.notice-content-wrapper{
+    font-size: 1.5em;
+    padding: 0 10px 0;
+}
+.notice-content{
+    padding: 0 0 0 20px;
+}
+.notice-content-support{
+    font-size: 0.8em;
+    padding: 0 0 0 20px;
+}
+.lunch-menu-name{
+    text-align: left;
+}
+.important-span{
+    color: red;
+}
+
+
+/*  */
+.chef-greetings{
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto 50px;
+}
+.chef-greetings-wrapper{
+    font-size: 1.5em;
+    padding: 0 10px 0;
+}
+.chef-greetings-text{
+    padding: 0 0 0 20px;
+}
+
+.click-for-commitment{
+    margin: 20px auto;
+}
+
+
+
+
+/* access */
+.access-area{
+    width: 100%;
+}
+.access-map{
+    width: var(--access-map-width);
+}
+.access-contents{
+    width: calc(100% - var(--access-map-width));
+    padding: 10px 50px;
+}
+.access-content-row{
+    width: 100%;
+    margin: 0 0 20px;
+    border-bottom: solid 1px #ccc;
+}
+.access-content-wrapper{
+    width: var(--access-content-wrapper-width);
+    font-weight: 800;
+}
+.access-content{
+    width: calc(100% - var(--access-content-wrapper-width));
+}
+
+
+
+
+
+
+p{
+    text-align: center;
+    margin: 20px 0;
+    font-size:1.5rem;
+}
+
+
+
+
+
+
+.move-arrow-area{
+    position : fixed;
+    right: 100px;
+    bottom: 100px;
+    height: 150px;
+    width: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+    z-index: 20;
+}
+.move-arrow-area:hover{
+    bottom: 80px;
+}
+
+.move-arrow{
+    position: relative;
+}
+.move-arrow::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -150px;
+    left: 11px;
+    width: 2px;
+    height: 150px;
+    background: #fff;
+    box-shadow: -1px 10px 8px 0 rgb(24, 46, 53);
+}
+.move-arrow::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -157px;
+    right: 4px;
+    width: 2px;
+    height: 40px;
+    transform: rotate(-135deg);
+    background: #fff;
+    box-shadow: -1px 10px 8px 0 rgb(24, 46, 53);
+}
+
+
+
+
+
+
+
+
+
+
+/*========= 1文字ずつ出現させるためのCSS ===============*/
+
+/* .eachTextAnime span{
+    opacity: 0;
+}
+.eachTextAnime.appeartext span{
+    animation:text_anime_on 1s ease-out forwards;
+}
+@keyframes text_anime_on {
+    0% {opacity:0;}
+    100% {opacity:1;}
+} */
+
+
+@media (max-width: 670px){
+    .sp-hidden{
+        display: none;
+    }
+
+}
+
+
+
+
+/* こだわりのアニメーション */
+.imgFadeIn {
+    -webkit-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+    animation-fill-mode:both;
+    -webkit-animation-duration:3s;
+    -ms-animation-duration:3s;
+    animation-duration:3s;
+    -webkit-animation-name: imgFadeIn;
+    animation-name: imgFadeIn;
+    visibility: visible !important;
+    }
+@-webkit-keyframes imgFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes imgFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.imgTextFadeIn {
+    -webkit-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+    animation-fill-mode:both;
+    -webkit-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: imgTextFadeIn;
+    animation-name: imgTextFadeIn;
+    visibility: visible !important;
+    }
+@-webkit-keyframes imgTextFadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes imgTextFadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
