@@ -12,6 +12,7 @@ html {
     background: #fff;
 }
 body{
+    width: 100%;
     position: relative;
     background: var(--main-color);
     margin: 0;
