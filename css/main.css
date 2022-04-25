@@ -743,6 +743,7 @@ p{
 }
 .main-content-1{
     width: calc( 100vw - 40px);
+    height: calc( 100vh - 70px);
     position:absolute;
 }
 @media (max-width: 670px){
