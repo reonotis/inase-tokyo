@@ -239,7 +239,7 @@ div{
     align-items: center;
     height: 100vh;
     padding-bottom: 100px;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     animation: image_anime 50s ease infinite;
     z-index: 10;

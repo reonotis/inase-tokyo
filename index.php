@@ -32,6 +32,25 @@
                 </div>
             </div>
         </div>
+        <div class="parallax-bg" >
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaaaaa<br>
+
+        </div>
+
         <?php include './layout/commitment.php'; ?>
         <?php include './layout/notice.php'; ?>
         <?php include './layout/access.php'; ?>
