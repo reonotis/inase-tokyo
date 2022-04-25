@@ -310,11 +310,12 @@ div{
 
 @media (max-width: 670px){
     .greeting-wrapper{
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
     .greeting-text{
         font-size: 1em;
         line-height: 1.4;
+        margin: 0 0 20px;
     }
 }
 
@@ -732,6 +733,12 @@ p{
     background-size: cover;
 }
 
+
+@media (max-width: 670px){
+    .main-header{
+        width:100%;
+    }
+}
 
 
 
