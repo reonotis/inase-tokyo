@@ -718,6 +718,7 @@ p{
 }
 .main-header{
     height: calc(100vh - 70px);
+    width:100%;
     background:#777;
     border-color:red;
     position:-webkit-sticky;
