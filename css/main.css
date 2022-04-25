@@ -733,7 +733,7 @@ p{
 .main-content-1,
 .main-content-2{
     position:relative;
-    padding: 70px 10px 0;
+    padding: 70px 10px;
     height: calc(100vh - 70px);
     width: 100%;
     z-index: 60;
