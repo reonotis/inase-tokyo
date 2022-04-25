@@ -34,7 +34,6 @@ $('a[href^=#]').click(function() {
     return false;
 });
 
-
 // 矢印をクリックしたときの処理
 $('#move-arrow-area').on('click', function() {
     // 現在位置
@@ -50,7 +49,6 @@ $('#move-arrow-area').on('click', function() {
     const content_3 = $('#content_3').offset().top;
     const notice = $('#notice').offset().top;
     const access = $('#access').offset().top;
-
 
     if( presentLocationX <= greeting - headerHeight){
         targetY = greeting - headerHeightAdjustment
@@ -157,7 +155,7 @@ $(function(){
     // 定期的に実行
     setInterval(function(){
         // 背景をフェードアウト
-        $(".img-list").fadeOut(speed,function(){
+        $(".main-header").fadeOut(speed,function(){
             // 背景画像番号変更
             thisnum = thisnum === bgimages.length - 1 ? 0 : thisnum + 1;
             // 背景画像を変更しフェードイン
@@ -168,12 +166,5 @@ $(function(){
             .fadeIn(speed);
         });
 
-        // $(".img-list").fadeIn(speed, function(){
-        //     thisnum = thisnum === bgimages.length - 1 ? 0 : thisnum + 1;
-        //     $(this).css({
-        //         "background-image":"url("+bgimages[thisnum]+")",
-        //         "background-position":position[thisnum] + " 0"
-        //     })
-        // });
     }, times);
 });

@@ -5,23 +5,11 @@
         <?php include './layout/header.php'; ?>
         <div class="aa">
             <div class="main-container">
-                <div class="main-content-1">MAIN CONTENT 1</div>
-                <div class="main-header">aaa</div>
-
-                <div class="main-content-2">MAIN CONTENT 2</div>
-            </div>
-        </div>
-        <!-- <div class="img-list-bg-black" >
-            <img src="./img/logo/top_logo.png" class="top-logo-1" >
-            <div class="img-list" >
-            </div>
-        </div> -->
-        <?php include './layout/button/reserve_button.php'; ?>
-        <div class="top-image-section" >
-            <div class="parallax-bg" id="top" ><img src="./img/logo/top_logo.png" class="top-logo" ></div>
-            <div class="parallax-bg" id="greeting" >
-                <div class='parallax-bg-text-area' >
-                    <div >
+                <?php include './layout/button/reserve_button.php'; ?>
+                <div class="main-content-1"><img src="./img/logo/top_logo.png" class="top-logo-1" ></div>
+                <div class="main-header"></div>
+                <div class="main-content-2" id="greeting" >
+                    <div class='parallax-bg-text-area' >
                         <p class='greeting-wrapper' >ご挨拶</p>
                         <p class='greeting-text' >
                             東京の「粋」を体現する六本木、麻布十番<br>

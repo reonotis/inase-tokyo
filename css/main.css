@@ -2,7 +2,7 @@
 :root {
     --main-color: #fff;
     --access-content-wrapper-width: 100px;
-    --notice-content-image-width: 400px;
+    --notice-content-image-width: 60%;
     --access-map-width: 50%;
     --section-margin-top: 90px;
     --break-point-sp: 670px;
@@ -28,8 +28,15 @@ header{
     z-index: 800;
 }
 @media (max-width: 670px){
+    html {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
     body{
+        margin: 0;
         padding: 0 20px 20px;
+        width: calc( 100% - 40px);
     }
     header{
         width: calc( 100% - 40px);
@@ -210,7 +217,7 @@ a{
 }
 @media (max-width: 670px){
     .reserve-section{
-        right: 0;
+        right: 5px;
     }
 }
 
@@ -303,10 +310,11 @@ div{
 
 @media (max-width: 670px){
     .greeting-wrapper{
-        font-size: 1em;
+        font-size: 1.3em;
     }
     .greeting-text{
         font-size: 1em;
+        line-height: 1.4;
     }
 }
 
@@ -447,13 +455,17 @@ div{
 .notice-content-image{
     width: var(--notice-content-image-width);
     height: 280px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
 }
 .notice-content-image>img{
-    width: 100%;
-    height: 100%;
+    width: 48%;
+    height: 90%;
     object-fit: cover;
 }
 .notice-contents{
+    padding: 0 20px 0 0 ;
     width: calc(100% - var(--notice-content-image-width));
 }
 .notice-content-wrapper{
@@ -577,7 +589,7 @@ p{
     width: 30px;
     cursor: pointer;
     transition: 0.2s;
-    z-index: 20;
+    z-index: 200;
 }
 .move-arrow-area:hover{
     bottom: 80px;
@@ -696,15 +708,16 @@ p{
 }
 
 .aa{
-    padding: 100px 0 0;
+    padding: 70px 0 0;
+    background:#222;
 }
 .main-container{
-    width: 80%;
-    border:solid 10px green;
-    margin: 70px auto;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
 }
 .main-header{
-    height: 500px;
+    height: calc(100vh - 70px);
     background:#777;
     border-color:red;
     position:-webkit-sticky;
@@ -719,26 +732,20 @@ p{
 }
 
 
-@media (max-width: 670px){
-    .main-header{
-        background-position: center center;
-        background-attachment: scroll;
-    }
-}
 
 
 
-.main-header>img{
-    height: 500px;
-}
+
 .main-content-1,
-.main-content-2
-{
+.main-content-2{
     position:relative;
-    height: 100vh;
+    padding: 70px 10px 0;
+    height: calc(100vh - 70px);
+    width: 100%;
     z-index: 60;
 }
 
 .main-content-1{
+    width: calc( 100vw - 40px);
     position:absolute;
 }

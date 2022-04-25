@@ -6,6 +6,7 @@
     <title>INASE 動作確認</title>
     <meta name='robots' content='max-image-preview:large' />
 
+
     <!-- All in One SEO Pack 2.9.1 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
     <!-- <meta name="description"  content="大阪市中央区にある「鮨れんげ」はオフィスビルが立ち並ぶ大阪の北浜エリアにございます。二階には個室もあり、接待やご宴会などにもおすすめです。広々とした寛ぎの空間で、旬の食材を使用したこだわりの寿司をお楽しみください。" /> -->
     <meta name="keywords"  content="ビーガン,和食,割烹,テイクアウト" />
