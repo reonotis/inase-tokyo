@@ -307,7 +307,6 @@ div{
                 1px 1px 3px #111;
 }
 
-
 @media (max-width: 670px){
     .greeting-wrapper{
         font-size: 1.5em;
@@ -324,16 +323,10 @@ div{
 
 
 
-
-
-
-
-
 .parallax-bg-text-area{
     z-index: 20;
-    padding: 0 10px;
+    padding: 0 10px 50px;
 }
-
 
 .commitment-section{
     padding: var(--section-margin-top) 0 0;
@@ -349,7 +342,6 @@ div{
 
 
 /* こだわり */
-
 .commitment-contents-area{
     width: 100%;
     position: relative;
@@ -727,18 +719,12 @@ p{
     top: 70px;
     z-index: 50;
     background-image: url("../img/photo/top_001.png");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-
-@media (max-width: 670px){
-    .main-header{
-        width:100%;
-    }
-}
 
 
 
@@ -757,3 +743,5 @@ p{
     width: calc( 100vw - 40px);
     position:absolute;
 }
+
+
