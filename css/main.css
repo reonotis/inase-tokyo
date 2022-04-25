@@ -737,14 +737,16 @@ p{
 .main-content-2{
     position:relative;
     padding: 70px 10px;
-    height: calc(100vh - 70px);
+    height: 100vh;
     width: 100%;
     z-index: 60;
 }
-
 .main-content-1{
     width: calc( 100vw - 40px);
     position:absolute;
 }
+@media (max-width: 670px){
+}
+
 
 
