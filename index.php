@@ -27,7 +27,7 @@
                             シンプルかつ新鮮な素材の旨味を引き出した、おいしいお料理と旨いお酒で<br>
                             お客様との一期一会を大切におもてなしいたします
                         </p>
-                        <p class='greeting-text' >東麻布 割烹 鯔背　店主</p>
+                        <p class='greeting-text last' >東麻布 割烹 鯔背　店主</p>
                     </div>
                 </div>
             </div>

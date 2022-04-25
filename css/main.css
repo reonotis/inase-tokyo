@@ -316,6 +316,9 @@ div{
         line-height: 1.4;
         margin: 0 0 20px;
     }
+    .greeting-text.last{
+        padding: 0 0 100px;
+    }
 }
 
 
