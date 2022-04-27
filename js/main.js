@@ -91,83 +91,12 @@ $(window).scroll(function () {
     topWindow = $(window).scrollTop();
     const access = $('#access').offset().top - 68;
     if( topWindow >= access  ){
-            $("#move-arrow-area").addClass("back-to-top");
+        $("#move-arrow-area").addClass("back-to-top");
     }else{
         $("#move-arrow-area").removeClass("back-to-top");
     }
 });
 
-
-
-
-
-
-
-
-
-
-// const img_list = ["img-list-001", "img-list-002"];
-// let count = -1;
-// picChange();
-// function picChange() {
-//     count++;
-//     // カウントが最大になれば初期値に戻す
-//     if (count == img_list.length) count = 0;
-
-//     img_list.forEach(function(elem, index) {
-//         if(index === count){
-//             $("#" + img_list[index]).animate({ opacity: 1 }, { duration: 1000, easing: 'linear' })
-//         }else{
-//             $("#" + img_list[index]).animate({ opacity: 0 }, { duration: 1000, easing: 'linear' })
-//         }
-//     });
-
-//     //5秒ごとに実行
-//     setTimeout("picChange()", 5000);
-// }
-
-// $(function() {
-//     var i = 1;
-//     setInterval(function() {
-//         if(i > 3) i = 1;
-//         $(".img-list").css("background","url('./img/photo/top_00"+i+".png')");
-//         i++;
-//     }, 2000);
-// });
-
-
-
-// var speed = 1000; // フェードイン・フェードアウトの処理時間（1000で1秒）
-// var times = 5000; // 画像切り替えの間隔（1000で1秒）
-
-// var bgimages = [
-//     './img/photo/top_001.png',
-//     './img/photo/top_002.png',
-//     './img/photo/top_003.png',
-//     './img/photo/top_004.png',
-//     './img/photo/top_005.png',
-//     './img/photo/top_006.png' // 最後に,をつけない
-// ];
-// var position = ['-150px','-100px', '0'];
-// $(function(){
-//     // 現在の背景画像番号格納する変数
-//     var thisnum = 0;
-//     // 定期的に実行
-//     setInterval(function(){
-//         // 背景をフェードアウト
-//         $(".main-header").fadeOut(speed,function(){
-//             // 背景画像番号変更
-//             thisnum = thisnum === bgimages.length - 1 ? 0 : thisnum + 1;
-//             // 背景画像を変更しフェードイン
-//             $(this).css({
-//                 "background-image":"url("+bgimages[thisnum]+")"
-
-//             })
-//             .fadeIn(speed);
-//         });
-
-//     }, times);
-// });
 
 
 

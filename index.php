@@ -10,7 +10,11 @@
                 <div class="main-content-2"></div>
             </div> -->
         <div class="bb">
-            <div class="parallax-bg" ><img src="./img/logo/top_logo.png" class="top-logo" ></div>
+            <div class="parallax-bg" >
+                <div class="top-logo-box" >
+                    <img src="./img/logo/top_logo.png" class="top-logo" >
+                </div>
+            </div>
             <div class="parallax-bg" >
                 <div class='parallax-bg-text-area' id="greeting"  >
                     <p class='greeting-wrapper' >ご挨拶</p>

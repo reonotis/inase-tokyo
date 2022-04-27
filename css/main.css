@@ -238,13 +238,12 @@ div{
     color: #fff;
     align-items: center;
     height: 100vh;
-    padding-bottom: 100px;
+    padding: 100px 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
     animation: image_anime 50s ease infinite;
     z-index: 10;
     object-fit: cover;
-
     width: 100%;
     background-position: center center;
     background-size: cover;
@@ -252,7 +251,10 @@ div{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    flex-flow: wrap;
+    justify-content: space-around;
 }
+
 .top-logo{
     position: relative;
     top: 100px;
@@ -261,6 +263,9 @@ div{
     margin: 0 auto;
 }
 @media (max-width: 670px){
+    .top-logo-box>img {
+        top: 0;
+    }
     .top-logo{
         height: 200px;
     }
@@ -313,7 +318,7 @@ div{
     }
     .greeting-text{
         font-size: 1em;
-        line-height: 1.4;
+        line-height: 1.3;
         margin: 0 0 20px;
     }
     .greeting-text.last{
@@ -667,28 +672,20 @@ p{
     -webkit-animation-fill-mode:both;
     -ms-animation-fill-mode:both;
     animation-fill-mode:both;
-    -webkit-animation-duration: 1.5s;
-    -ms-animation-duration: 1.5s;
-    animation-duration: 1.5s;
+    -webkit-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    animation-duration: 2s;
     -webkit-animation-name: imgFadeIn;
     animation-name: imgFadeIn;
     visibility: visible !important;
-    }
+}
 @-webkit-keyframes imgFadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 @keyframes imgFadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 .imgTextFadeIn {
@@ -701,28 +698,16 @@ p{
     -webkit-animation-name: imgTextFadeIn;
     animation-name: imgTextFadeIn;
     visibility: visible !important;
-    }
+}
 @-webkit-keyframes imgTextFadeIn {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% { opacity: 0; }
+    20% { opacity: 0; }
+    100% { opacity: 1; }
 }
 @keyframes imgTextFadeIn {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% { opacity: 0; }
+    20% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 
