@@ -742,12 +742,15 @@ p{
     z-index: 60;
 }
 .main-content-1{
-    width: calc( 100vw - 40px);
+    width: calc( 100% - 50px);
     height: calc( 100vh - 70px);
     position:absolute;
 }
 @media (max-width: 670px){
 }
 
+.bb>div{
+    background-attachment: scroll;
 
+}
 
