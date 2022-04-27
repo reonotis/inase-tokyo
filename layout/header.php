@@ -35,33 +35,10 @@
                     <span class="sp-hidden" ><?= $sns['name'] ?></span>
                 </a>
             <?php }?>
-            <a href="/en" class="sns-contents flex language-change-btn sp-hidden" >
-            English
-            </a>
+            <a href="/en" class="sns-contents flex language-change-btn sp-hidden" >English</a>
         </div>
     </div>
 
 </header>
 
 
-<style>
-    .Facebook:before,
-    .Twitter:before,
-    .Instagram:before {
-        font-family: "Font Awesome 5 Brands";
-        font-size: 1.2em;
-        margin: 0 5px 0 0;
-        color: #777;
-    }
-
-    .Facebook:before {
-        content: "\f082";
-    }
-    .Twitter:before {
-        content: "\f081";
-    }
-    .Instagram:before {
-        content: "\f16d";
-    }
-
-</style>

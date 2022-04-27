@@ -137,34 +137,45 @@ $(window).scroll(function () {
 
 
 
-var speed = 1000; // フェードイン・フェードアウトの処理時間（1000で1秒）
-var times = 5000; // 画像切り替えの間隔（1000で1秒）
+// var speed = 1000; // フェードイン・フェードアウトの処理時間（1000で1秒）
+// var times = 5000; // 画像切り替えの間隔（1000で1秒）
 
-var bgimages = [
-    './img/photo/top_001.png',
-    './img/photo/top_002.png',
-    './img/photo/top_003.png',
-    './img/photo/top_004.png',
-    './img/photo/top_005.png',
-    './img/photo/top_006.png' // 最後に,をつけない
-];
-var position = ['-150px','-100px', '0'];
-$(function(){
-    // 現在の背景画像番号格納する変数
-    var thisnum = 0;
-    // 定期的に実行
-    setInterval(function(){
-        // 背景をフェードアウト
-        $(".main-header").fadeOut(speed,function(){
-            // 背景画像番号変更
-            thisnum = thisnum === bgimages.length - 1 ? 0 : thisnum + 1;
-            // 背景画像を変更しフェードイン
-            $(this).css({
-                "background-image":"url("+bgimages[thisnum]+")"
+// var bgimages = [
+//     './img/photo/top_001.png',
+//     './img/photo/top_002.png',
+//     './img/photo/top_003.png',
+//     './img/photo/top_004.png',
+//     './img/photo/top_005.png',
+//     './img/photo/top_006.png' // 最後に,をつけない
+// ];
+// var position = ['-150px','-100px', '0'];
+// $(function(){
+//     // 現在の背景画像番号格納する変数
+//     var thisnum = 0;
+//     // 定期的に実行
+//     setInterval(function(){
+//         // 背景をフェードアウト
+//         $(".main-header").fadeOut(speed,function(){
+//             // 背景画像番号変更
+//             thisnum = thisnum === bgimages.length - 1 ? 0 : thisnum + 1;
+//             // 背景画像を変更しフェードイン
+//             $(this).css({
+//                 "background-image":"url("+bgimages[thisnum]+")"
 
-            })
-            .fadeIn(speed);
-        });
+//             })
+//             .fadeIn(speed);
+//         });
 
-    }, times);
+//     }, times);
+// });
+
+
+
+
+
+
+// 画像をポップアップ表示させる
+$('.images-pop-up-btn').on('click', function() {
+    var src = $(this).parent().children('img').attr('src')
+    console.log(src)
 });

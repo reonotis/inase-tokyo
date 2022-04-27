@@ -328,7 +328,7 @@ div{
 
 .parallax-bg-text-area{
     z-index: 20;
-    padding: 0 10px 50px;
+    padding: 70px 10px 50px;
 }
 
 .commitment-section{
@@ -350,6 +350,14 @@ div{
     position: relative;
     margin: 0 0 100px;
 }
+@media (max-width: 670px){
+    .commitment-contents-area{
+        margin: 0 0 30px;
+    }
+}
+
+
+
 .commitment-content-image{
     position: relative;
     width: 100%;
@@ -374,7 +382,7 @@ div{
 .commitment-content-wrapper{
     visibility: hidden;
     display: table;
-    width: 50%;
+    width: 65%;
     position: absolute;
     color: var(--main-color);
     left: 0;
@@ -455,10 +463,23 @@ div{
     flex-flow: wrap;
     justify-content: space-around;
 }
-.notice-content-image>img{
+.pop-up-images{
+    position: relative;
     width: 48%;
     height: 90%;
+}
+.pop-up-images>img{
+    width: 100%;
+    height: 90%;
     object-fit: cover;
+}
+.images-pop-up-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 35px;
+    width: 35px;
+    fill: #fff;
 }
 .notice-contents{
     padding: 0 20px 0 0 ;
@@ -488,6 +509,7 @@ div{
     }
     .notice-content-image{
         width: 100%;
+        height: auto;
     }
     .notice-contents{
         width: 100%;
@@ -645,9 +667,9 @@ p{
     -webkit-animation-fill-mode:both;
     -ms-animation-fill-mode:both;
     animation-fill-mode:both;
-    -webkit-animation-duration:3s;
-    -ms-animation-duration:3s;
-    animation-duration:3s;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
     -webkit-animation-name: imgFadeIn;
     animation-name: imgFadeIn;
     visibility: visible !important;
@@ -703,10 +725,8 @@ p{
     }
 }
 
-.aa{
-    padding: 70px 0 0;
-    background:#222;
-}
+
+
 .main-container{
     width: 100%;
     margin: 0 auto;
@@ -727,9 +747,6 @@ p{
     background-position: center center;
     background-size: cover;
 }
-
-
-
 
 
 
@@ -754,5 +771,27 @@ p{
     .bb>div{
         background-attachment: scroll;
     }
+}
+
+
+
+
+.Facebook:before,
+.Twitter:before,
+.Instagram:before {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 1.2em;
+    margin: 0 5px 0 0;
+    color: #777;
+}
+
+.Facebook:before {
+    content: "\f082";
+}
+.Twitter:before {
+    content: "\f081";
+}
+.Instagram:before {
+    content: "\f16d";
 }
 
