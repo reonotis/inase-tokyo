@@ -52,6 +52,25 @@
                 aaaaaaaaaaaaaaaaaaaaa<br>
 
             </div>
+            <div class="parallax-bg" >
+            <img src="./img/logo/top_logo.png" class="top-logo" >
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+                aaaaaaaaaaaaaaaaaaaaa<br>
+
+            </div>
         </div>
 
         <?php include './layout/commitment.php'; ?>
