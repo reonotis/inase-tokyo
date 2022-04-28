@@ -2,13 +2,14 @@
 <?php include './layout/head.php'; ?>
 <html lang="ja">
     <body>
+        <div class="" id="kanban-mask" style="overflow: hidden; display: none;" >
+            <div class="" id="kanban-img" >
+                <div class="" id="kanban-close" >×</div>
+                <img src="./img/photo/kanban.png" >
+            </div>
+        </div>
         <?php include './layout/header.php'; ?>
         <?php include './layout/button/reserve_button.php'; ?>
-            <!-- <div class="main-container">
-                <div class="main-content-1"><img src="./img/logo/top_logo.png" class="top-logo-1" ></div>
-                <div class="main-header"></div>
-                <div class="main-content-2"></div>
-            </div> -->
         <div class="bb">
             <div class="parallax-bg" >
                 <div class="top-logo-box" >
@@ -46,7 +47,12 @@
             <div class='move-arrow' >
             </div>
         </div>
-
+        <div class="" id="pop-up-img-mask" style="overflow: hidden; display: none;" >
+            <div class="" id="pop-up-img" >
+                <div class="" id="pop-up-img-close" >×</div>
+                <img src="./img/photo/lunch_01.png" >
+            </div>
+        </div>
         <script src="./js/main.js?<?= date('YmdHis')?>"></script>
     </body>
 </html>

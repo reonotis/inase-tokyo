@@ -1,10 +1,21 @@
+window.onload = function(){
+    // 看板画像を3秒表示させる
+    $('#kanban-mask').fadeIn(1000);
+    setTimeout(function() {
+        $('#kanban-mask').fadeOut(500);
+	}, 2000);
+}
+$('#kanban-close').on('click', function() {
+    $('#kanban-mask').fadeOut(500);
+});
+
+
 
 // メニュー
 $('#hamburger').on('click', function() {
     $("#menu-mask").show(300);
     $("#menu-bar").addClass("on");
 });
-
 $('#menu-mask').on('click', function() {
     $("#menu-mask").hide(300);
     $("#menu-bar").removeClass("on");
@@ -99,12 +110,12 @@ $(window).scroll(function () {
 
 
 
-
-
-
-
 // 画像をポップアップ表示させる
 $('.images-pop-up-btn').on('click', function() {
     var src = $(this).parent().children('img').attr('src')
-    console.log(src)
+    $('#pop-up-img').children('img').attr('src', src);
+    $('#pop-up-img-mask').slideToggle(250);
+});
+$('#pop-up-img-close').on('click', function() {
+    $('#pop-up-img-mask').slideToggle(250);
 });

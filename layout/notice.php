@@ -14,11 +14,15 @@
                 </div>
             </div>
             <div class='notice-contents' >
-                <div class='notice-content-wrapper' >ランチメニューのご紹介<span class="notice-content-support" >テイクアウト承ります（デリバリー準備中）</span></div>
+                <div class='notice-content-wrapper' >ランチメニューのご紹介
+                    <p class="notice-content-support" >テイクアウト承ります（デリバリー準備中）</p>
+                </div>
                 <div class='notice-content' >
-                    <p class="lunch-menu-name" >金色の親子丼<br></p>
-                    厳選した鶏肉と名古屋コーチンの卵、じっくりとった鰹のお出汁が最高のハーモニーを奏でます<br>
-                    お食事／テイクアウトのご予約　＞　03-6459-1250
+                    <p class="lunch-menu-name" >金色の親子丼</p>
+                    <p class="lunch-menu-comment" >
+                        厳選した鶏肉と名古屋コーチンの卵、じっくりとった鰹のお出汁が最高のハーモニーを奏でます<br>
+                        お食事／テイクアウトのご予約　＞　03-6459-1250
+                    </p>
                     <span class='important-span' >※ランチタイムのお食事／テイクアウトのご予約はお電話からのみ受け付けております。<br>なにとぞご了承ください。</span>
                 </div>
             </div>
