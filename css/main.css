@@ -116,10 +116,28 @@ h2{
     height: 150px;
     position: absolute;
 }
-
 .h2-logo>p{
     z-index: 10;
 }
+@media (max-width: 670px){
+    h2{
+        margin: 0 auto 10px;
+    }
+    .h2-logo:before{
+        content: "";
+        display: inline-block;
+        background: url(../img/logo/h_logo_ja.png);
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+    .h2-logo>p{
+        font-size: 0.8em;
+    }
+}
+
+
 a{
     color: #333;
 }
@@ -181,6 +199,10 @@ a{
     margin: 0 0 10px;
 }
 .sns-area {
+    margin: 0 0 0 auto;
+}
+
+.sns-area-inbox{
     margin: 0 0 0 auto;
 }
 .sns-contents{
@@ -571,6 +593,7 @@ div{
 @media (max-width: 670px){
     .notice-content-row{
         display: block;
+        margin: 15px auto 30px;
     }
     .notice-content-image{
         width: 100%;
@@ -589,7 +612,7 @@ div{
 /*  */
 .chef-greetings{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 100px auto 50px;
 }
 .chef-greetings-wrapper{
@@ -599,10 +622,17 @@ div{
 .chef-greetings-text{
     padding: 0 0 0 20px;
 }
-
 .click-for-commitment{
     margin: 20px auto;
+    text-align: right;
 }
+
+@media (max-width: 670px){
+    .chef-greetings-text{
+        padding: 0 30px 0 20px;
+    }
+}
+
 
 
 
@@ -884,3 +914,4 @@ p{
 #pop-up-img-close:hover{
     font-size: 2.2em;
 }
+

@@ -3,28 +3,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>INASE 動作確認</title>
+    <title>鯔背 -INASE-</title>
     <meta name='robots' content='max-image-preview:large' />
 
 
     <!-- All in One SEO Pack 2.9.1 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
-    <!-- <meta name="description"  content="大阪市中央区にある「鮨れんげ」はオフィスビルが立ち並ぶ大阪の北浜エリアにございます。二階には個室もあり、接待やご宴会などにもおすすめです。広々とした寛ぎの空間で、旬の食材を使用したこだわりの寿司をお楽しみください。" /> -->
+    <meta name="description"  content="旬の素材そのものの味をあまり手を加えずに引き出すシンプルな料理を提供しています。また、お客様に楽しい時間であったと感じていただけるように、心地よいサービスと雰囲気づくりをスタッフ一同心がけています。" />
     <meta name="keywords"  content="ビーガン,和食,割烹,テイクアウト" />
 
     <link rel="icon" href="../img/logo/favicon.png">
 
     <!-- <link rel="canonical" href="https://www.sushi-lenge.com/" /> -->
     <!-- <meta property="og:title" content="旬のネタを豊富に揃え、極上の味をご提供します｜鮨れんげ" /> -->
-    <!-- <meta property="og:type" content="website" /> -->
+    <meta property="og:type" content="website" />
     <!-- <meta property="og:url" content="https://www.sushi-lenge.com/" /> -->
-    <!-- <meta property="og:image" content="https://www.sushi-lenge.com/wp-content/uploads/logo_ogp.jpg" /> -->
-    <!-- <meta property="og:site_name" content="鮨れんげ" /> -->
-    <!-- <meta property="og:description" content="大阪市中央区にある「鮨れんげ」はオフィスビルが立ち並ぶ大阪の北浜エリアにございます。二階には個室もあり、接待やご宴会などにもおすすめです。広々とした寛ぎの空間で、旬の食材を使用したこだわりの寿司をお楽しみください。" /> -->
-    <!-- <meta name="twitter:card" content="summary" /> -->
+    <meta property="og:image" content="../img/photo/kanban.png" />
+    <meta property="og:site_name" content="鯔背" />
+    <meta property="og:description" content="旬の素材そのものの味をあまり手を加えずに引き出すシンプルな料理を提供しています。また、お客様に楽しい時間であったと感じていただけるように、心地よいサービスと雰囲気づくりをスタッフ一同心がけています。" />
+    <meta name="twitter:card" content="summary" />
     <!-- <meta name="twitter:title" content="旬のネタを豊富に揃え、極上の味をご提供します｜鮨れんげ" /> -->
-    <!-- <meta name="twitter:description" content="大阪市中央区にある「鮨れんげ」はオフィスビルが立ち並ぶ大阪の北浜エリアにございます。二階には個室もあり、接待やご宴会などにもおすすめです。広々とした寛ぎの空間で、旬の食材を使用したこだわりの寿司をお楽しみください。" /> -->
-    <!-- <meta name="twitter:image" content="https://www.sushi-lenge.com/wp-content/uploads/logo_ogp.jpg" /> -->
-    <!-- <meta itemprop="image" content="https://www.sushi-lenge.com/wp-content/uploads/logo_ogp.jpg" /> -->
+    <meta name="twitter:description" content="旬の素材そのものの味をあまり手を加えずに引き出すシンプルな料理を提供しています。また、お客様に楽しい時間であったと感じていただけるように、心地よいサービスと雰囲気づくりをスタッフ一同心がけています。" />
+    <meta name="twitter:image" content="../img/photo/kanban.png" />
+    <meta itemprop="image" content="../img/photo/kanban.png" />
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
