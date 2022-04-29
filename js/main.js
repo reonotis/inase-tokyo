@@ -1,10 +1,10 @@
-window.onload = function(){
+$(document).ready( function(){
     // 看板画像を3秒表示させる
-    $('#kanban-mask').fadeIn(1000);
+    $('#kanban-mask').fadeIn(100);
     setTimeout(function() {
         $('#kanban-mask').fadeOut(500);
-	}, 2000);
-}
+    }, 2000);
+});
 $('#kanban-close').on('click', function() {
     $('#kanban-mask').fadeOut(500);
 });

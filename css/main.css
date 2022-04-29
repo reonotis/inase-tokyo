@@ -24,8 +24,9 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    padding: 70px 50px;
     background: #1119;
     z-index: 1000;
     display: flex;
@@ -34,12 +35,37 @@ body{
 }
 #kanban-img{
     position: relative;
-    width: 95%;
-    max-width: 1000px;
+    box-sizing: border-box;
+    color: #fff;
+    align-items: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    animation: image_anime 50s ease infinite;
+    z-index: 10;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    justify-content: space-around;
 }
 #kanban-img>img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+@media (max-width: 670px){
+    #kanban-mask{
+        padding: 70px 20px;
+    }
+}
+
+
 #kanban-close{
     position: absolute;
     content: "";
@@ -202,9 +228,6 @@ a{
     margin: 0 0 0 auto;
 }
 
-.sns-area-inbox{
-    margin: 0 0 0 auto;
-}
 .sns-contents{
     padding: 0 15px;
     margin: 0 0 0 10px;
@@ -303,7 +326,7 @@ div{
     box-sizing: border-box;
     color: #fff;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     padding: 100px 0;
     background-attachment: fixed;
     background-repeat: no-repeat;

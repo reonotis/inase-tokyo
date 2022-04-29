@@ -30,20 +30,15 @@
 
 
         <div class="chef-greetings" >
-            <div class='chef-greetings-wrapper' >料理長からの挨拶</div>
+            <div class='chef-greetings-wrapper' >料理長からのご挨拶</div>
             <div class='chef-greetings-text' >
-                旬の素材そのものの味をあまり手を加えずに引き出すシンプルな料理を提供しています。また、お客様に楽しい時間であったと感じていただけるように、心地よいサービスと雰囲気づくりをスタッフ一同心がけています。<br>
+                関西での修行時代に培った「素材そのままを活かすスタイル」を大切にしながら、
+                視覚や嗅覚に刺激を与える新しい表現の和食を提供しています。
+                また、お客様に楽しい時間であったと感じていただけるように、心地よいサービスと
+                雰囲気づくりをスタッフ一同心がけています。
                 <div class='click-for-commitment' >
                     <div class='sns-area flex' >
-                        <div class='sns-area-inbox flex' >
-                            料理長のこだわりはこちら
-                            <?php foreach($snsList as $sns){ ?>
-                                <a href='<?= $sns['url'] ?>' target="_blank" class='sns-contents flex' >
-                                    <span class="<?= $sns['name'] ?>" font-awesome="<?= $sns['name'] ?>" ></span>
-                                    <span class="sp-hidden" ><?= $sns['name'] ?></span>
-                                </a>
-                            <?php }?>
-                        </div>
+                        料理長のこだわりは<a href="https://www.instagram.com/mizo3723/?igshid=YmMyMTA2M2Y=" target="_blank" >こちら</a>
                     </div>
                 </div>
 
