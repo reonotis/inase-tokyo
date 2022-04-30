@@ -3,7 +3,7 @@
     --main-color: #fff;
     --access-content-wrapper-width: 100px;
     --access-map-width: 50%;
-    --section-margin-top: 90px;
+    --section-margin-top: 20px;
     --break-point-sp: 670px;
 }
 
@@ -551,7 +551,7 @@ div{
 .notice-contents{
     width: 100%;
     max-width: 900px;
-    margin: 50px auto;
+    margin: 50px auto 0;
 }
 .notice-content-wrapper{
     padding: 0 5px 0;
