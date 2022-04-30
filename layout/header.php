@@ -35,7 +35,7 @@
                     <span class="sp-hidden" ><?= $sns['name'] ?></span>
                 </a>
             <?php }?>
-            <a href="/en" class="sns-contents flex language-change-btn sp-hidden" >English</a>
+            <a href="/en" class="sns-contents flex language-change-btn" >English</a>
         </div>
     </div>
 
