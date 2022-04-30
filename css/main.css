@@ -188,6 +188,11 @@ a{
 .hamburger::after{
     top: 18px;
 }
+@media (max-width: 670px){
+    .sns-contents{
+        margin: 0 10px 0 0;
+    }
+}
 .menu-mask{
     position: fixed;
     top: 0;
@@ -852,6 +857,13 @@ p{
     content: "\f16d";
 }
 
+@media (max-width: 670px){
+    .Facebook:before,
+    .Twitter:before,
+    .Instagram:before {
+        margin: 0;
+    }
+}
 
 
 #pop-up-img-mask{
