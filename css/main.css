@@ -338,6 +338,14 @@ div{
     flex-flow: wrap;
     justify-content: space-around;
 }
+@media (max-width: 670px){
+    .top-contents-area{
+        background-attachment: scroll;
+    }
+    .top-contents-area>div{
+        background-attachment: scroll;
+    }
+}
 
 .top-logo{
     position: relative;
@@ -376,6 +384,12 @@ div{
     }
 }
 
+
+
+.parallax-bg-text-area{
+    z-index: 20;
+    padding: 70px 10px 50px;
+}
 
 
 
@@ -420,12 +434,6 @@ div{
 
 
 
-
-
-.parallax-bg-text-area{
-    z-index: 20;
-    padding: 70px 10px 50px;
-}
 
 .commitment-section{
     padding: var(--section-margin-top) 0 0;
@@ -812,53 +820,6 @@ p{
     100% { opacity: 1; }
 }
 
-
-
-.main-container{
-    width: 100%;
-    margin: 0 auto;
-    color: #fff;
-}
-.main-header{
-    height: calc(100vh - 70px);
-    width:100%;
-    background:#777;
-    border-color:red;
-    position:-webkit-sticky;
-    position:sticky;
-    top: 70px;
-    z-index: 50;
-    background-image: url("../img/photo/top_001.png");
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-
-
-.main-content-1,
-.main-content-2{
-    position:relative;
-    padding: 70px 10px;
-    height: 100vh;
-    width: 100%;
-    z-index: 60;
-}
-.main-content-1{
-    width: calc( 100% - 50px);
-    height: calc( 100vh - 70px);
-    position:absolute;
-}
-
-.top-contents-area>div{
-    background-attachment: fixed;
-}
-@media (max-width: 670px){
-    .top-contents-area>div{
-        background-attachment: scroll;
-    }
-}
 
 
 
