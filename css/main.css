@@ -2,7 +2,6 @@
 :root {
     --main-color: #fff;
     --access-content-wrapper-width: 100px;
-    --notice-content-image-width: 60%;
     --access-map-width: 50%;
     --section-margin-top: 90px;
     --break-point-sp: 670px;
@@ -18,9 +17,59 @@ body{
     padding: 0 50px 20px;
     font-family: "Noto Serif JP", "游明朝", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "Times New Roman", Times, Garamond, Georgia, serif !important;
 }
+header{
+    position: fixed;
+    width: calc( 100% - 100px);
+    margin-bottom: 20px;
+    padding: 20px 0;
+    background :white;
+    align-items: center;
+    font-size: 1.3em;
+    z-index: 800;
+}
+@media (max-width: 670px){
+    html {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0 20px 20px;
+        width: calc( 100% - 40px);
+    }
+    header{
+        width: calc( 100% - 40px);
+        font-size: 1.0em;
+    }
+}
 
 
-#kanban-mask{
+.sp-hidden{
+    display: block;
+}
+.pc-hidden{
+    display: none;
+}
+@media (max-width: 670px){
+    .sp-hidden{
+        display: none;
+    }
+    .pc-hidden{
+        display: block;
+    }
+}
+.flex{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+
+
+/* #kanban-mask{
     position: fixed;
     top: 0;
     left: 0;
@@ -63,64 +112,9 @@ body{
     #kanban-mask{
         padding: 70px 20px;
     }
-}
+} */
 
 
-#kanban-close{
-    position: absolute;
-    content: "";
-    height: 50px;
-    width: 50px;
-    font-size: 1.7em;
-    top: -20px;
-    right: -20px;
-    font-weight: 800;
-    color: #fff;
-    background: #111;
-    border: solid 2px #fff;
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.2s;
-}
-#kanban-close:hover{
-    font-size: 2.2em;
-}
-header{
-    position: fixed;
-    width: calc( 100% - 100px);
-    margin-bottom: 20px;
-    padding: 20px 0;
-    background :white;
-    align-items: center;
-    z-index: 800;
-}
-@media (max-width: 670px){
-    html {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-    body{
-        margin: 0;
-        padding: 0 20px 20px;
-        width: calc( 100% - 40px);
-    }
-    header{
-        width: calc( 100% - 40px);
-    }
-}
-
-
-.flex{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-}
 
 h2{
     width: 100%;
@@ -226,6 +220,7 @@ a{
 }
 .sns-area {
     margin: 0 0 0 auto;
+    font-size: 0.7em;
 }
 
 .sns-contents{
@@ -436,7 +431,7 @@ div{
     padding: var(--section-margin-top) 0 0;
 }
 .notice-section{
-    padding: var(--section-margin-top) 0 100px;
+    padding: var(--section-margin-top) 0 10px;
 }
 .access-section{
     padding: var(--section-margin-top) 0 100px;
@@ -553,14 +548,20 @@ div{
 
 
 /* お知らせ */
-.notice-content-row{
+.notice-contents{
     width: 100%;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 50px auto;
 }
-.notice-content-image{
-    width: var(--notice-content-image-width);
-    height: 280px;
+.notice-content-wrapper{
+    padding: 0 5px 0;
+    margin: 0 0 5px;
+    font-size: 1.5em;
+    border-bottom: solid 1px #888 ;
+}
+.notice-content-images{
+    width:80%;
+    padding: 0 0 0 100px;
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
@@ -568,13 +569,28 @@ div{
 .pop-up-images{
     position: relative;
     width: 48%;
-    height: 90%;
+    background: #3333;
+}
+.pop-up-images::before {
+    content: "";
+    display: block;
+    padding-top: 75%;  /* 4:3 */
 }
 .pop-up-images>img{
+    position: absolute;
+    top: 0;
     width: 100%;
-    height: 90%;
+    height: 100%;
     object-fit: cover;
 }
+
+@media (max-width: 670px){
+    .notice-content-images{
+        width: calc(100% - 20px);
+        padding: 0;
+        }
+}
+
 .images-pop-up-btn{
     position: absolute;
     top: 5px;
@@ -583,26 +599,17 @@ div{
     width: 35px;
     fill: #fff;
 }
-.notice-contents{
-    padding: 0 20px 0 0 ;
-    width: calc(100% - var(--notice-content-image-width));
-}
-.notice-content-wrapper{
-    font-size: 1.5em;
-    padding: 0 10px 0;
-}
-.notice-content{
-    padding: 0 0 0 20px;
-}
 .notice-content-support{
-    font-size: 0.8em;
+    font-size: 0.85m;
     padding: 0 0 0 20px;
     margin: 0;
     text-align: left;
 }
 .lunch-menu-name{
+    margin: 10px 0 0;
+    padding: 0 0 0 5px;
     text-align: left;
-    margin-bottom: 0;
+    border-left: solid 5px #333;
 }
 .lunch-menu-comment{
     font-size: 16px;
@@ -622,9 +629,6 @@ div{
         width: 100%;
         height: auto;
     }
-    .notice-contents{
-        width: 100%;
-    }
 }
 
 
@@ -633,15 +637,6 @@ div{
 
 
 /*  */
-.chef-greetings{
-    width: 100%;
-    max-width: 1000px;
-    margin: 100px auto 50px;
-}
-.chef-greetings-wrapper{
-    font-size: 1.5em;
-    padding: 0 10px 0;
-}
 .chef-greetings-text{
     padding: 0 0 0 20px;
 }
@@ -695,6 +690,10 @@ div{
     .access-contents{
         width: 100%;
         padding: 0px;
+    }
+    .access-content-row{
+        margin: 10px 0 20px;
+        padding: 0 0 0 10px;
     }
 }
 
@@ -766,16 +765,6 @@ p{
 
 
 
-
-
-
-
-
-@media (max-width: 670px){
-    .sp-hidden{
-        display: none;
-    }
-}
 
 
 
@@ -862,11 +851,11 @@ p{
     position:absolute;
 }
 
-.bb>div{
+.top-contents-area>div{
     background-attachment: fixed;
 }
 @media (max-width: 670px){
-    .bb>div{
+    .top-contents-area>div{
         background-attachment: scroll;
     }
 }
@@ -878,7 +867,6 @@ p{
 .Twitter:before,
 .Instagram:before {
     font-family: "Font Awesome 5 Brands";
-    font-size: 1.2em;
     margin: 0 5px 0 0;
     color: #777;
 }
@@ -936,5 +924,30 @@ p{
 }
 #pop-up-img-close:hover{
     font-size: 2.2em;
+}
+
+
+.shop-imgs{
+    width: 100%;
+    display: flex;
+    margin: 0 0 20px;
+    justify-content: space-between;
+}
+.shop-img{
+    position: relative;
+    width: 32%;
+    background: #3333;
+}
+.shop-img::before {
+    content: "";
+    display: block;
+    padding-top: 75%;
+}
+.shop-img>img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 

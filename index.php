@@ -2,15 +2,14 @@
 <?php include './layout/head.php'; ?>
 <html lang="ja">
     <body>
-        <div class="" id="kanban-mask" style="overflow: hidden; display: none;" >
+        <!-- <div class="" id="kanban-mask" style="overflow: hidden; display: none;" >
             <div class="" id="kanban-img" >
-                <div class="" id="kanban-close" >×</div>
                 <img src="./img/photo/kanban.png" >
             </div>
-        </div>
+        </div> -->
         <?php include './layout/header.php'; ?>
         <?php include './layout/button/reserve_button.php'; ?>
-        <div class="bb">
+        <div class="top-contents-area">
             <div class="parallax-bg" >
                 <div class="top-logo-box" >
                     <img src="./img/logo/top_logo.png" class="top-logo" >

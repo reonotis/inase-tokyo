@@ -14,7 +14,7 @@
     </div>
     <div class='commitment-contents-area animation' id='content_2' >
         <div class='commitment-content-image' >
-            <img src='./img/photo/commitment_02.jpg' >
+            <img src='./img/photo/commitment_02.png' >
         </div>
         <div class='commitment-content-wrapper' >
             <div class='commitment-content-title' >さまざまな食のスタイルを持つ人が<br>一つの食卓を囲む幸せを

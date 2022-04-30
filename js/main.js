@@ -1,13 +1,13 @@
-$(document).ready( function(){
-    // 看板画像を3秒表示させる
-    $('#kanban-mask').fadeIn(100);
-    setTimeout(function() {
-        $('#kanban-mask').fadeOut(500);
-    }, 2000);
-});
-$('#kanban-close').on('click', function() {
-    $('#kanban-mask').fadeOut(500);
-});
+// $(document).ready( function(){
+//     // 看板画像を２秒表示させる
+//     $('#kanban-mask').fadeIn(100);
+//     setTimeout(function() {
+//         $('#kanban-mask').fadeOut(500);
+//     }, 2000);
+// });
+// $('#kanban-close').on('click', function() {
+//     $('#kanban-mask').fadeOut(500);
+// });
 
 
 
@@ -24,9 +24,16 @@ $('#menu-mask').on('click', function() {
 // TOP画像の切り替え
 jQuery(function($) {
     $('.parallax-bg').bgSwitcher({
-        images: ['./img/photo/top_001.png','./img/photo/top_002.png','./img/photo/top_003.png','./img/photo/top_004.png','./img/photo/top_005.png','./img/photo/top_006.png'],
+        images: [
+            './img/photo/top_001.png',
+            './img/photo/top_002.png',
+            './img/photo/top_003.png',
+            './img/photo/top_004.png',
+            './img/photo/top_005.png',
+            './img/photo/top_006.png'
+        ],
         interval: 5000,
-        loop: true,
+        loop: false,
         effect: "fade",
         duration: 2000,
         easing: "swing"
@@ -96,7 +103,6 @@ $(window).scroll(function(){
     });
 });
 
-
 // スクロールしたら
 $(window).scroll(function () {
     topWindow = $(window).scrollTop();
@@ -108,14 +114,12 @@ $(window).scroll(function () {
     }
 });
 
-
-
 // 画像をポップアップ表示させる
 $('.images-pop-up-btn').on('click', function() {
     var src = $(this).parent().children('img').attr('src')
     $('#pop-up-img').children('img').attr('src', src);
-    $('#pop-up-img-mask').slideToggle(250);
+    $('#pop-up-img-mask').fadeIn(250);
 });
 $('#pop-up-img-close').on('click', function() {
-    $('#pop-up-img-mask').slideToggle(250);
+    $('#pop-up-img-mask').fadeOut(250);
 });
