@@ -189,7 +189,7 @@ a{
     top: 18px;
 }
 @media (max-width: 670px){
-    .sns-contents{
+    .hamburger{
         margin: 0 10px 0 0;
     }
 }
