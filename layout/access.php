@@ -55,10 +55,6 @@
                 </div>
             </div>
             <div class='flex access-content-row' >
-                <div class='access-content-wrapper' >駐車場</div>
-                <div class='access-content' >無</div>
-            </div>
-            <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >支払い方法</div>
                 <div class='access-content' >
                     クレジットカード：可<br>　（VISA、master、AMEX、JCB、Diners、DISCOVER）<br>
