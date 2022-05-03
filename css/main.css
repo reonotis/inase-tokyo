@@ -718,6 +718,14 @@ div{
         margin: 10px 0 20px;
         padding: 0 0 0 10px;
     }
+    .access-content-wrapper{
+        width: 90px;
+        font-size: 0.9em;
+    }
+    .access-content{
+        width: calc(100% - 90px);
+        font-size: 0.8em;
+    }
 }
 
 

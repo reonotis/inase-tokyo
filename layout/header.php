@@ -9,8 +9,8 @@
 ?>
 
 
-<header  >
-    <div class='flex'  style='position:relative; width: 100%;' >
+<header>
+    <div class='flex' style='position:relative; width: 100%; align-items: center;' >
         <!-- <div class='side-menu' id='side-menu' style='display:none;' > -->
             <div class='menu-mask' id='menu-mask' style='display:none;'  ></div>
             <div class='menu-bar' id='menu-bar' >
