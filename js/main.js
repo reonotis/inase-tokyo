@@ -30,12 +30,18 @@ jQuery(function($) {
             '../img/photo/top_003.png',
             '../img/photo/top_004.png',
             '../img/photo/top_005.png',
-            '../img/photo/top_006.png'
+            '../img/photo/top_006.png',
+            '../img/photo/top_007.png',
+            '../img/photo/top_008.png',
+            '../img/photo/top_009.png',
+            '../img/photo/top_010.png',
+            '../img/photo/top_011.png',
+            '../img/photo/top_012.png'
         ],
-        interval: 2500,
-        loop: false,
+        interval: 2000,
+        loop: true,
         effect: "fade",
-        duration: 1200,
+        duration: 1000,
         easing: "swing"
     });
     $('.parallax-bg-en').bgSwitcher({
@@ -45,12 +51,18 @@ jQuery(function($) {
             '../img/photo/top_003.png',
             '../img/photo/top_004.png',
             '../img/photo/top_005.png',
-            '../img/photo/top_006.png'
+            '../img/photo/top_006.png',
+            '../img/photo/top_007.png',
+            '../img/photo/top_008.png',
+            '../img/photo/top_009.png',
+            '../img/photo/top_010.png',
+            '../img/photo/top_011.png',
+            '../img/photo/top_012.png'
         ],
-        interval: 2500,
-        loop: false,
+        interval: 2000,
+        loop: true,
         effect: "fade",
-        duration: 1200,
+        duration: 1000,
         easing: "swing"
     });
 });

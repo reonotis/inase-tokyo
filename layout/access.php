@@ -41,7 +41,7 @@
                 <div class='access-content-wrapper' >定休日</div>
                 <div class='access-content' >日曜・祝日</div>
             </div>
-            <div class='flex access-content-row' id='access'  >
+            <div class='flex access-content-row' id='access' >
                 <div class='access-content-wrapper' >ご予約</div>
                 <div class='access-content' >
                 <a href="tel:03-6459-1250">03-6459-1250</a>（9:00～21:00）<br>
