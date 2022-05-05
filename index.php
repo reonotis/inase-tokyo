@@ -9,7 +9,7 @@
         </div> -->
         <?php include './layout/header.php'; ?>
         <?php include './layout/button/reserve_button.php'; ?>
-        <div class="top-contents-area">
+        <div class="top-contents-area" id="top" >
             <div class="parallax-bg" >
                 <div class="top-logo-box" >
                     <img src="./img/logo/top_logo.png" class="top-logo" >

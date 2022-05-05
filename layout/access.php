@@ -1,4 +1,4 @@
-<div class='access-section' id='access' >
+<div class='access-section' id="access-area">
     <h2 class="h2-logo" ><p>お店のご案内</p></h2>
 
     <div class='flex access-area' >
@@ -27,7 +27,7 @@
             </div>
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >電話番号</div>
-                <div class='access-content' >03-6459-1250</div>
+                <div class='access-content' ><a href="tel:03-6459-1250">03-6459-1250</a></div>
             </div>
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >営業時間</div>
@@ -41,24 +41,18 @@
                 <div class='access-content-wrapper' >定休日</div>
                 <div class='access-content' >日曜・祝日</div>
             </div>
-            <div class='flex access-content-row' >
+            <div class='flex access-content-row' id='access'  >
                 <div class='access-content-wrapper' >ご予約</div>
                 <div class='access-content' >
-                    03-6459-1250（9:00～21:00）<br>
+                <a href="tel:03-6459-1250">03-6459-1250</a>（9:00～21:00）<br>
                     ※お食事／テイクアウトのご予約はお電話からのみ受け付けております。何卒、ご了承ください。
-                </div>
-            </div>
-            <div class='flex access-content-row' >
-                <div class='access-content-wrapper' >交通手段</div>
-                <div class='access-content' >地下鉄　南北線／大江戸線
-                                        麻布十番駅 A4 番出口 徒歩 2 分
                 </div>
             </div>
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >支払い方法</div>
                 <div class='access-content' >
-                    クレジットカード：可<br>　（VISA、master、AMEX、JCB、Diners、DISCOVER）<br>
-                    電子マネー：可<br>　（交通系IC、ID、QUICPay、ApplePay、Paypay）
+                    クレジットカード：可<br>（VISA、master、AMEX、JCB、Diners、DISCOVER）<br>
+                    電子マネー：可<br>（交通系IC、ID、QUICPay、ApplePay、Paypay）
                 </div>
             </div>
             <div class='flex access-content-row' >
@@ -72,7 +66,7 @@
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >駐車場</div>
                 <div class='access-content' >
-                無(近くにコインパーキングがございます)
+                無（近くにコインパーキングがございます）
                 </div>
             </div>
         </div>

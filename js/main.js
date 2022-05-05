@@ -25,17 +25,32 @@ $('#menu-mask').on('click', function() {
 jQuery(function($) {
     $('.parallax-bg').bgSwitcher({
         images: [
-            './img/photo/top_001.png',
-            './img/photo/top_002.png',
-            './img/photo/top_003.png',
-            './img/photo/top_004.png',
-            './img/photo/top_005.png',
-            './img/photo/top_006.png'
+            '../img/photo/top_001.png',
+            '../img/photo/top_002.png',
+            '../img/photo/top_003.png',
+            '../img/photo/top_004.png',
+            '../img/photo/top_005.png',
+            '../img/photo/top_006.png'
         ],
-        interval: 5000,
+        interval: 2500,
         loop: false,
         effect: "fade",
-        duration: 2000,
+        duration: 1200,
+        easing: "swing"
+    });
+    $('.parallax-bg-en').bgSwitcher({
+        images: [
+            '../img/photo/top_001.png',
+            '../img/photo/top_002.png',
+            '../img/photo/top_003.png',
+            '../img/photo/top_004.png',
+            '../img/photo/top_005.png',
+            '../img/photo/top_006.png'
+        ],
+        interval: 2500,
+        loop: false,
+        effect: "fade",
+        duration: 1200,
         easing: "swing"
     });
 });
@@ -80,6 +95,10 @@ $('#move-arrow-area').on('click', function() {
         targetY = notice - headerHeightAdjustment
     }else if( presentLocationX <= access - headerHeight ){
         targetY = access - headerHeightAdjustment
+        var backToTop = $("#move-arrow-area").hasClass("back-to-top")
+        if(backToTop){
+            targetY = 0
+        }
     }
 
     window.scrollTo({
@@ -106,7 +125,7 @@ $(window).scroll(function(){
 // スクロールしたら
 $(window).scroll(function () {
     topWindow = $(window).scrollTop();
-    const access = $('#access').offset().top - 68;
+    const access = $('#access-area').offset().top - 68;
     if( topWindow >= access  ){
         $("#move-arrow-area").addClass("back-to-top");
     }else{

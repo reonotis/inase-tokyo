@@ -136,6 +136,19 @@ h2{
     height: 150px;
     position: absolute;
 }
+h2.en{
+    -ms-writing-mode: tb-tb;
+    writing-mode: horizontal-tb;
+    height: 150px;
+}
+h2.en:before{
+    background: url(../img/logo/h_logo_en.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
 .h2-logo>p{
     z-index: 10;
 }
@@ -321,8 +334,6 @@ a{
     box-sizing:border-box;
     display: block;
 }
-.top-image-section>div{
-}
 div{
     box-sizing: border-box;
 }
@@ -348,7 +359,31 @@ div{
     flex-flow: wrap;
     justify-content: space-around;
 }
+.parallax-bg-en {
+    box-sizing: border-box;
+    color: #fff;
+    align-items: center;
+    min-height: 100vh;
+    padding: 100px 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    animation: image_anime 50s ease infinite;
+    z-index: 10;
+    object-fit: cover;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
 @media (max-width: 670px){
+    .parallax-bg {
+        margin: 0 0 50px;
+    }
     .top-contents-area{
         background-attachment: scroll;
     }
