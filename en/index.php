@@ -10,8 +10,8 @@
                     <img src="../img/logo/top_logo.png" class="top-logo" >
                 </div>
             </div>
-            <div class="parallax-bg-en" >
-                <div class='parallax-bg-text-area' id="greeting"  >
+            <div class="parallax-bg-en" id="greeting" >
+                <div class='parallax-bg-text-area' >
                     <!-- <p class='greeting-wrapper' >Welcome to Inase</p> -->
                     <p class='greeting-text' >
                         Roppongi’s Azabu-juban epitomizes Tokyo chic.<br>
