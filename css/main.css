@@ -3,7 +3,7 @@
     --main-color: #fff;
     --access-content-wrapper-width: 100px;
     --access-map-width: 50%;
-    --section-margin-top: 20px;
+    --section-margin-top: 70px;
     --break-point-sp: 670px;
 }
 
@@ -967,7 +967,7 @@ p{
 }
 .shop-img{
     position: relative;
-    width: 32%;
+    width: 24%;
     background: #3333;
 }
 .shop-img::before {

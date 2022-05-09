@@ -12,7 +12,7 @@
             </div>
             <div class="parallax-bg-en" >
                 <div class='parallax-bg-text-area' id="greeting"  >
-                    <p class='greeting-wrapper' >Welcome to Inase</p>
+                    <!-- <p class='greeting-wrapper' >Welcome to Inase</p> -->
                     <p class='greeting-text' >
                         Roppongi’s Azabu-juban epitomizes Tokyo chic.<br>
                         Nestled in the serenity of Higashi-Azabu, it's just a stone's throw from the urban bustle.<br>
@@ -24,12 +24,12 @@
                         High-quality, natural materials create an exquisite harmony of traditional and modern Japanese.<br>
                         Welcome to a warm experience in a friendly space.
                     </p>
-                    <p class='greeting-text' >
+                    <!-- <p class='greeting-text' >
                         Using only the choicest seasonal ingredients.<br>
                         Prepared so as to fully bring out their simplicity and freshness, and accompanied by delicious drinks.<br>
                         We offer hospitality that fully captures the here and now.
                     </p>
-                    <p class='greeting-text last' >Owner, Higashi-Azabu Kappo Inase</p>
+                    <p class='greeting-text last' >Owner, Higashi-Azabu Kappo Inase</p> -->
                 </div>
             </div>
         </div>

@@ -3,13 +3,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>鯔背 -INASE-</title>
+    <title>-INASE- 鯔背</title>
     <meta name='robots' content='max-image-preview:large' />
 
 
-    <!-- All in One SEO Pack 2.9.1 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
-    <meta name="description"  content="旬の素材そのものの味をあまり手を加えずに引き出すシンプルな料理を提供しています。また、お客様に楽しい時間であったと感じていただけるように、心地よいサービスと雰囲気づくりをスタッフ一同心がけています。" />
-    <meta name="keywords"  content="ビーガン,和食,割烹,テイクアウト" />
+    <meta name="description" content="旬の素材そのものの味をあまり手を加えずに引き出すシンプルな料理を提供しています。また、お客様に楽しい時間であったと感じていただけるように、心地よいサービスと雰囲気づくりをスタッフ一同心がけています。" />
+    <meta name="keywords" content="ビーガン,和食,割烹,テイクアウト" />
 
     <link rel="icon" href="../img/logo/favicon.png">
 

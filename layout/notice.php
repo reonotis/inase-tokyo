@@ -6,12 +6,12 @@
             <div class='notice-content-wrapper' >ランチメニューのご紹介</div>
             <span class="notice-content-support" >テイクアウト承ります（デリバリー準備中）</span>
             <div class='chef-greetings-text' >
-                <p class="lunch-menu-name" >金色の親子丼</p>
+                <p class="lunch-menu-name" >金色(こんじき)の親子丼</p>
                 <p class="lunch-menu-comment" >
-                    厳選した鶏肉と名古屋コーチンの卵、じっくりとった鰹のお出汁が最高のハーモニーを奏でます<br>
-                    お食事／テイクアウトのご予約<br class="pc-hidden">　＞　<a href="tel:03-6459-1250">03-6459-1250</a>
+                    奥美濃の古知鶏、名古屋コーチンの卵を贅沢に使い自慢の出汁で煮込んだ金色に輝く親子丼をぜひ一度ご賞味ください。厳選した鶏肉と名古屋コーチンの卵、じっくりとった鰹のお出汁が最高のハーモニーを奏でます<br>
+                    <!-- お食事／テイクアウトのご予約<br class="pc-hidden">　＞　<a href="tel:03-6459-1250">03-6459-1250</a> -->
                 </p>
-                <span class='important-span' >※ランチタイムのお食事／テイクアウトのご予約はお電話からのみ受け付けております。<br>なにとぞご了承ください。</span>
+                <!-- <span class='important-span' >※ランチタイムのお食事／テイクアウトのご予約はお電話からのみ受け付けております。<br>なにとぞご了承ください。</span> -->
             </div>
             <div class='notice-content-images' >
                 <div class="pop-up-images" >
@@ -27,10 +27,8 @@
         <div class="notice-contents" >
             <div class='notice-content-wrapper' >料理長からのご挨拶</div>
             <div class='chef-greetings-text' >
-                関西での修行時代に培った「素材そのままを活かすスタイル」を大切にしながら、
-                視覚や嗅覚に刺激を与える新しい表現の和食を提供しています。
-                また、お客様に楽しい時間であったと感じていただけるように、心地よいサービスと
-                雰囲気づくりをスタッフ一同心がけています。
+            「素材そのままを活かすスタイル」を大切にしながら、視覚や嗅覚に刺激を与える新しい表現の和食を提供しています。 また、お客様に楽しい時間であったと
+            感じていただけるように、心地よいサービスと雰囲気づくりをスタッフ一同心がけています。
                 <div class='click-for-commitment' >
                     <div class='flex' >
                         料理長のこだわりは<a href="https://www.instagram.com/mizo3723/?igshid=YmMyMTA2M2Y=" target="_blank" >こちら</a>

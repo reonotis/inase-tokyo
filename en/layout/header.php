@@ -17,9 +17,9 @@
                 <ul class="side-menu">
                     <li><a href='#top'>Home</a></li>
                     <li><a href='#greeting'>Welcome to Inase</a></li>
-                    <li><a href='#content_1'>Uncompromising</a></li>
+                    <li><a href='#content_1'>Inase’s promise</a></li>
                     <li><a href='#notice'>News</a></li>
-                    <li><a href='#access'>Restaurant details</a></li>
+                    <li><a href='#access-area'>Restaurant details</a></li>
                     <li><a href='#access'>Reservations</a></li>
                     <li><a href='../'>Japanese</a></li>
                 </ul>

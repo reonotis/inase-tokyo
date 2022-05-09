@@ -6,11 +6,11 @@
             <div class='notice-content-wrapper' >Our lunch menu</div>
             <span class="notice-content-support" >Available for take-out<br class="pc-hidden"> (delivery soon to be available)</span>
             <div class='chef-greetings-text' >
-                <p class="lunch-menu-name" >金色の親子丼 <br class="pc-hidden"><span class="en-read" >【Konjiki-no-Oyako-don (chicken and egg on rice)】</span></p>
+                <p class="lunch-menu-name" >金色の親子丼 <br class="pc-hidden"><span class="en-read" >Konjiki no Oyako-don (chicken and egg on rice)</span></p>
                 <p class="lunch-menu-comment" >
+                <!-- TODO -->
                 A harmonious mix of choice chicken and Nagoya Cochin egg simmered in rich bonito stock, served on a bowl of rice.<br>
-                Eat-in/Take-out reservations<br class="pc-hidden">　＞　<a href="tel:03-6459-1250">03-6459-1250</a></p>
-                <span class='important-span' >Note: Lunch time eat-in and take-out reservations are accepted by phone only.</span>
+                <!-- Eat-in/Take-out reservations<br class="pc-hidden">　＞　<a href="tel:03-6459-1250">03-6459-1250</a></p> -->
             </div>
             <div class='notice-content-images' >
                 <div class="pop-up-images" >

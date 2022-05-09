@@ -23,7 +23,7 @@
             </div>
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >Address</div>
-                <div class='access-content' >2-30-9-1F Higashi-Azabu, Minato-ku, Tokyo</div>
+                <div class='access-content' >1F, 2-30-9 Higashi-Azabu, Minato-ku, Tokyo</div>
             </div>
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >Telephone</div>
@@ -45,8 +45,7 @@
             <div class='flex access-content-row' id='access' >
                 <div class='access-content-wrapper' >Reservations</div>
                 <div class='access-content' >
-                    <a href="tel:03-6459-1250">03-6459-1250</a> (9 am to 9:30 pm)<br>
-                        Note: Lunch time eat-in and take-out reservations are accepted by phone only.
+                    <a href="tel:03-6459-1250">03-6459-1250</a><br>
                 </div>
             </div>
             <div class='flex access-content-row' >

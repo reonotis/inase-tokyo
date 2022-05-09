@@ -8,7 +8,6 @@
     ]];
 ?>
 
-
 <header>
     <div class='flex' style='position:relative; width: 100%; align-items: center;' >
         <!-- <div class='side-menu' id='side-menu' style='display:none;' > -->
@@ -19,7 +18,7 @@
                     <li><a href='#greeting'>ご挨拶</a></li>
                     <li><a href='#content_1'>こだわり</a></li>
                     <li><a href='#notice'>お知らせ</a></li>
-                    <li><a href='#access'>お店のご案内</a></li>
+                    <li><a href='#access-area'>お店のご案内</a></li>
                     <li><a href='#access'>ご予約</a></li>
                     <li><a href='/en'>English</a></li>
                 </ul>

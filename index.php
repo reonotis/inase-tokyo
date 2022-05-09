@@ -15,9 +15,9 @@
                     <img src="./img/logo/top_logo.png" class="top-logo" >
                 </div>
             </div>
-            <div class="parallax-bg" >
-                <div class='parallax-bg-text-area' id="greeting"  >
-                    <p class='greeting-wrapper' >ご挨拶</p>
+            <div class="parallax-bg" id="greeting" >
+                <div class='parallax-bg-text-area' >
+                    <!-- <p class='greeting-wrapper' >ご挨拶</p> -->
                     <p class='greeting-text' >
                         東京の「粋」を体現する六本木、麻布十番<br>
                         その喧騒からすこし離れた、東麻布の贅沢な「静けさ」<br>
@@ -29,12 +29,12 @@
                         上質な自然材によって生み出される、和とモダンが絶妙に調和する<br>
                         温かな時間と空間でお客様をお出迎えいたします
                     </p>
-                    <p class='greeting-text' >
+                    <!-- <p class='greeting-text' >
                         こだわりの旬の食材をふんだんに使い<br>
                         シンプルかつ新鮮な素材の旨味を引き出した、おいしいお料理と旨いお酒で<br>
                         お客様との一期一会を大切におもてなしいたします
                     </p>
-                    <p class='greeting-text last' >東麻布 割烹 鯔背　店主</p>
+                    <p class='greeting-text last' >東麻布 割烹 鯔背　店主</p> -->
                 </div>
             </div>
         </div>

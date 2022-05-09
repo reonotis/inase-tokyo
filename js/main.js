@@ -30,8 +30,8 @@ jQuery(function($) {
             '../img/photo/top_003.png',
             '../img/photo/top_004.png',
             '../img/photo/top_005.png',
-            '../img/photo/top_006.png',
-            '../img/photo/top_007.png',
+            // '../img/photo/top_006.png',
+            // '../img/photo/top_007.png',
             '../img/photo/top_008.png',
             '../img/photo/top_009.png',
             '../img/photo/top_010.png',
@@ -51,8 +51,8 @@ jQuery(function($) {
             '../img/photo/top_003.png',
             '../img/photo/top_004.png',
             '../img/photo/top_005.png',
-            '../img/photo/top_006.png',
-            '../img/photo/top_007.png',
+            // '../img/photo/top_006.png',
+            // '../img/photo/top_007.png',
             '../img/photo/top_008.png',
             '../img/photo/top_009.png',
             '../img/photo/top_010.png',
@@ -93,7 +93,7 @@ $('#move-arrow-area').on('click', function() {
     const content_2 = $('#content_2').offset().top;
     const content_3 = $('#content_3').offset().top;
     const notice = $('#notice').offset().top;
-    const access = $('#access').offset().top;
+    const access = $('#access-area').offset().top;
 
     if( presentLocationX <= greeting - headerHeight){
         targetY = greeting - headerHeightAdjustment
