@@ -14,7 +14,7 @@
                     <img src="../img/photo/shop_03.png" >
                 </div>
                 <div class="shop-img" >
-                    <img src="./img/photo/shop_04.png" >
+                    <img src="../img/photo/shop_04.png" >
                 </div>
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.86838185806!2d139.73895061587461!3d35.65561428020031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ba2dc305769%3A0x83be5667c3ec525d!2s2-ch%C5%8Dme-30-9%20Higashiazabu%2C%20Minato%20City%2C%20Tokyo%20106-0044!5e0!3m2!1sen!2sjp!4v1651647107445!5m2!1sen!2sjp"                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
