@@ -983,3 +983,6 @@ p{
     object-fit: cover;
 }
 
+a.tel-href{
+    text-decoration: none;
+}

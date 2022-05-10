@@ -8,8 +8,7 @@
             <div class='chef-greetings-text' >
                 <p class="lunch-menu-name" >金色の親子丼 <br class="pc-hidden"><span class="en-read" >Konjiki no Oyako-don (chicken and egg on rice)</span></p>
                 <p class="lunch-menu-comment" >
-                <!-- TODO -->
-                A harmonious mix of choice chicken and Nagoya Cochin egg simmered in rich bonito stock, served on a bowl of rice.<br>
+                Please enjoy ‘the golden oyakodon‘, which is made from Okumino's Kochi chicken and Nagoya Cochin's eggs simmered in the soup stock. Carefully selected chicken, eggs, and bonito broth play the best harmony.<br>
                 <!-- Eat-in/Take-out reservations<br class="pc-hidden">　＞　<a href="tel:03-6459-1250">03-6459-1250</a></p> -->
             </div>
             <div class='notice-content-images' >
