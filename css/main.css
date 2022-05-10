@@ -983,10 +983,20 @@ p{
     object-fit: cover;
 }
 
+p.lunch-menu-comment {
+    margin: 0 0 1rem;
+}
 a.tel-href{
     text-decoration: none;
 }
-
-p.lunch-menu-comment {
-    margin: 0 0 1rem;
+a[href^="tel"]{
+    pointer-events: none;
+}
+@media screen and (max-width: 768px) {
+    a[href^="tel"]{
+        pointer-events: auto;
+    }
+    a.tel-href{
+        text-decoration: underline;
+    }
 }
