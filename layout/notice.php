@@ -4,7 +4,6 @@
     <div class='notice-area' >
         <div class="notice-contents" >
             <div class='notice-content-wrapper' >ランチメニューのご紹介</div>
-            <span class="notice-content-support" >テイクアウト承ります（デリバリー準備中）</span>
             <div class='chef-greetings-text' >
                 <p class="lunch-menu-name" >金色(こんじき)の親子丼</p>
                 <p class="lunch-menu-comment" >
@@ -27,8 +26,7 @@
         <div class="notice-contents" >
             <div class='notice-content-wrapper' >料理長からのご挨拶</div>
             <div class='chef-greetings-text' >
-            「素材そのままを活かすスタイル」を大切にしながら、視覚や嗅覚に刺激を与える新しい表現の和食を提供しています。 また、お客様に楽しい時間であったと
-            感じていただけるように、心地よいサービスと雰囲気づくりをスタッフ一同心がけています。
+            「素材そのままを活かすスタイル」を大切にしながら、視覚や嗅覚に刺激を与える新しい表現の和食を提供しています。 また、お客様に楽しい時間であったと感じていただけるように、心地よいサービスと雰囲気づくりをスタッフ一同心がけています。
                 <div class='click-for-commitment' >
                     <div class='flex' >
                         料理長のこだわりは<a href="https://www.instagram.com/mizo3723/?igshid=YmMyMTA2M2Y=" target="_blank" >こちら</a>

@@ -4,7 +4,6 @@
     <div class='notice-area' >
         <div class="notice-contents" >
             <div class='notice-content-wrapper' >Our lunch menu</div>
-            <span class="notice-content-support" >Available for take-out<br class="pc-hidden"> (delivery soon to be available)</span>
             <div class='chef-greetings-text' >
                 <p class="lunch-menu-name" >金色の親子丼 <br class="pc-hidden"><span class="en-read" >Konjiki no Oyako-don (chicken and egg on rice)</span></p>
                 <p class="lunch-menu-comment" >
