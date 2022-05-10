@@ -986,3 +986,7 @@ p{
 a.tel-href{
     text-decoration: none;
 }
+
+p.lunch-menu-comment {
+    margin: 0 0 1rem;
+}
