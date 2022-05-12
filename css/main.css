@@ -14,18 +14,22 @@ body{
     position: relative;
     background: var(--main-color);
     margin: 0;
-    padding: 0 50px 20px;
+    padding: 0 0 20px;
     font-family: "Noto Serif JP", "游明朝", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "Times New Roman", Times, Garamond, Georgia, serif !important;
 }
 header{
     position: fixed;
-    width: calc( 100% - 100px);
+    width: 100%;
+    top: 0;
+    left: 0;
     margin-bottom: 20px;
-    padding: 20px 0;
-    background :white;
+    padding: 20px 50px;
+    background :#111;
+    color: #fff;
     align-items: center;
     font-size: 1.3em;
     z-index: 800;
+    box-sizing: border-box;
 }
 @media (max-width: 670px){
     html {
@@ -35,11 +39,11 @@ header{
     }
     body{
         margin: 0;
-        padding: 0 20px 20px;
-        width: calc( 100% - 40px);
+        padding: 0 0 20px;
+        width: 100%;
     }
     header{
-        width: calc( 100% - 40px);
+        padding: 20px ;
         font-size: 0.9em;
     }
 }
@@ -175,7 +179,10 @@ a{
     color: #333;
 }
 
+.sns-area>a{
+    color: #fff;
 
+}
 
 
 
@@ -196,7 +203,7 @@ a{
     width: 100%;
     height: 3px;
     border-radius: 5px;
-    background: #333;
+    background: #fff;
 }
 .hamburger::after{
     top: 18px;
@@ -259,7 +266,7 @@ a{
     padding-right: 10px;
 }
 .language-change-btn{
-    background: #ccc;
+    background: #777;
 }
 
 @media (max-width: 670px){
@@ -295,7 +302,24 @@ a{
 
 
 
+.background-black{
+    background: #111;
+    padding: 0 50px 20px;
+}
+.background-white{
+    background: #fff;
+    padding: 0 50px 20px;
+}
 
+@media (max-width: 670px){
+    .background-black{
+        padding: 0 20px 20px;
+    }
+    .background-white{
+        padding: 0 20px 20px;
+    }
+
+}
 
 
 
@@ -893,7 +917,7 @@ p{
 .Instagram:before {
     font-family: "Font Awesome 5 Brands";
     margin: 0 5px 0 0;
-    color: #777;
+    color: #fff;
 }
 
 .Facebook:before {
