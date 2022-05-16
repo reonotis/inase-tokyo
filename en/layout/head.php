@@ -16,14 +16,14 @@
     <!-- <meta property="og:title" content="旬のネタを豊富に揃え、極上の味をご提供します｜鮨れんげ" /> -->
     <meta property="og:type" content="website" />
     <!-- <meta property="og:url" content="https://www.sushi-lenge.com/" /> -->
-    <meta property="og:image" content="../img/photo/kanban.png" />
+    <meta property="og:image" content="../img/photo/shop_01.png" />
     <meta property="og:site_name" content="鯔背" />
     <meta property="og:description" content="旬の素材そのものの味をあまり手を加えずに引き出すシンプルな料理を提供しています。また、お客様に楽しい時間であったと感じていただけるように、心地よいサービスと雰囲気づくりをスタッフ一同心がけています。" />
     <meta name="twitter:card" content="summary" />
     <!-- <meta name="twitter:title" content="旬のネタを豊富に揃え、極上の味をご提供します｜鮨れんげ" /> -->
     <meta name="twitter:description" content="旬の素材そのものの味をあまり手を加えずに引き出すシンプルな料理を提供しています。また、お客様に楽しい時間であったと感じていただけるように、心地よいサービスと雰囲気づくりをスタッフ一同心がけています。" />
-    <meta name="twitter:image" content="../img/photo/kanban.png" />
-    <meta itemprop="image" content="../img/photo/kanban.png" />
+    <meta name="twitter:image" content="../img/photo/shop_01.png" />
+    <meta itemprop="image" content="../img/photo/shop_01.png" />
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
