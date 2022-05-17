@@ -53,7 +53,7 @@
                 <div class='access-content-wrapper' >Number of seats</div>
                 <div class='access-content' >
                     Private room up to 8 people<br>
-                    　* Charge fee 5,000 yen （free for 4 or more people）<br>
+                    (Private rooms can be used by 4 people or more)<br>
                     3 table seats 6 people<br>
                     7 counters<br>
                 </div>

@@ -53,7 +53,7 @@
                 <div class='access-content-wrapper' >席数</div>
                 <div class='access-content' >
                     個室最大 8名<br>
-                    　※チャージ料5,000円（4名以上ご利用時無料）<br>
+                    （個室のご利用は、4名様以上となります）<br>
                     テーブル席 3卓 6名<br>
                     カウンター 7名<br>
                 </div>
