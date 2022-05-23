@@ -41,7 +41,7 @@
                 <div class='access-content' >
                     Lunch: 11:00 am to 2:30 pm<br>
                     　Last order: 9:30 pm <br>
-                    Dinner: 5:00 pm to 12:00 pm<br>
+                    Dinner: 6:00 pm to 12:00 pm<br>
                     　Last order: 11:30 pm <br>
                 </div>
             </div>
