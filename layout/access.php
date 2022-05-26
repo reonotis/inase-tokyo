@@ -41,8 +41,7 @@
                 <div class='access-content' >
                     ランチ　11:00～14:30<br>
                     　ラストオーダー　14:00<br>
-                    ディナー　18:00～24:00<br>
-                    　ラストオーダー　23:30<br>
+                    ディナー　18:00～23:30<br>
                 </div>
             </div>
             <div class='flex access-content-row' >
