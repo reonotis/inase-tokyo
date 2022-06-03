@@ -766,6 +766,9 @@ div{
 .access-content{
     width: calc(100% - var(--access-content-wrapper-width));
 }
+.important-notice{
+    color: red;
+}
 
 
 @media (max-width: 670px){

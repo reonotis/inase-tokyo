@@ -34,7 +34,10 @@
             </div>
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >電話番号</div>
-                <div class='access-content' ><a href="tel:03-6459-1250" class="tel-href" >03-6459-1250</a></div>
+                <div class='access-content' >
+                    <a href="tel:03-6459-1250" class="tel-href" >03-6459-1250</a><br>
+                    <a href="./img/pdf/臨時休業のお知らせ_220603.pdf" class="important-notice" target="_blank" >臨時休業のお知らせ</a>
+                </div>
             </div>
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >営業時間</div>
