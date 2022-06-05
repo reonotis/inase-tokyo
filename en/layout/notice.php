@@ -1,5 +1,7 @@
 <div class='notice-section' id='notice' >
-    <h2 class="h2-logo en" ><p>News</p></h2>
+    <h2 class="h2-logo en" ><p>News</p>
+        <div class="new-shop-notice en" ><a href="https://www.facebook.com/inase.kappou/" target="_blank" >★ Click here for the latest store information</a></div>
+    </h2>
 
     <div class='notice-area' >
         <div class="notice-contents" >

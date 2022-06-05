@@ -141,6 +141,9 @@ h2{
     writing-mode: initial;
     font-size: 0.9rem;
 }
+.new-shop-notice.en{
+    right: calc(50% - 380px);
+}
 .h2-logo:before{
     content: "";
     display: inline-block;
