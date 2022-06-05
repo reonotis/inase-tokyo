@@ -121,6 +121,7 @@ header{
 
 
 h2{
+    position: relative ;
     width: 100%;
     margin: 0 auto 30px;
     text-align: center;
@@ -130,6 +131,15 @@ h2{
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.new-shop-notice{
+    position: absolute;
+    right: calc(50% - 260px);
+    bottom: 0;
+    -ms-writing-mode: tb-rl;
+    writing-mode: initial;
+    font-size: 0.9rem;
 }
 .h2-logo:before{
     content: "";
@@ -171,6 +181,11 @@ h2.en:before{
     }
     .h2-logo>p{
         font-size: 0.6em;
+    }
+    .new-shop-notice{
+        right: calc(50% - 180px);
+        font-size: 0.9rem;
+        bottom: -25px;
     }
 }
 
