@@ -190,6 +190,9 @@ h2.en:before{
         font-size: 0.9rem;
         bottom: -25px;
     }
+    .new-shop-notice.en{
+        right: calc(50% - 160px);
+    }
 }
 
 
