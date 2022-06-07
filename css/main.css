@@ -173,25 +173,23 @@ h2.en:before{
     h2{
         margin: 0 auto 10px;
     }
-    .h2-logo:before{
-        content: "";
-        display: inline-block;
-        background: url(../img/logo/h_logo_ja.png);
-        background-size: cover;
+    .h2-logo:before,
+    h2.en:before{
         width: 100px;
         height: 100px;
-        position: absolute;
     }
     .h2-logo>p{
         font-size: 0.6em;
     }
     .new-shop-notice{
-        right: calc(50% - 180px);
+        right: 0;
+        left: 0;
         font-size: 0.9rem;
         bottom: -25px;
     }
     .new-shop-notice.en{
-        right: calc(50% - 160px);
+        right: 0;
+        left: 0;
     }
 }
 
