@@ -173,6 +173,7 @@ h2.en:before{
     h2,
     h2.en{
         margin: 0 auto 10px;
+        height: 130px;
     }
     .h2-logo:before,
     h2.en:before{
