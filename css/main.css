@@ -170,7 +170,8 @@ h2.en:before{
     z-index: 10;
 }
 @media (max-width: 670px){
-    h2{
+    h2,
+    h2.en{
         margin: 0 auto 10px;
     }
     .h2-logo:before,
