@@ -142,7 +142,7 @@ h2{
     font-size: 0.9rem;
 }
 .new-shop-notice.en{
-    right: calc(50% - 380px);
+    right: calc(50% - 290px);
 }
 .h2-logo:before{
     content: "";
@@ -192,6 +192,7 @@ h2.en:before{
     .new-shop-notice.en{
         right: 0;
         left: 0;
+        bottom: -35px;
     }
 }
 

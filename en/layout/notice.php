@@ -1,6 +1,8 @@
 <div class='notice-section' id='notice' >
     <h2 class="h2-logo en" ><p>News</p>
-        <div class="new-shop-notice en" ><a href="https://www.facebook.com/inase.kappou/" target="_blank" >★ Click here for the latest store information</a></div>
+        <div class="new-shop-notice en" >
+                ★ Please contact us by <a href="tel:03-6459-1250" class="tel-href" >phone</a><br> for the latest shop information
+        </div>
     </h2>
 
     <div class='notice-area' >

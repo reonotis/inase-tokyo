@@ -44,6 +44,7 @@
                     ランチ　11:00～14:30<br>
                     　ラストオーダー　14:00<br>
                     ディナー　18:00～23:30<br>
+                    　<a href="https://www.facebook.com/inase.kappou/" target="_blank" >★最新の店舗情報はこちら</a>
                 </div>
             </div>
             <div class='flex access-content-row' >

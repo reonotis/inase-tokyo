@@ -34,7 +34,9 @@
             </div>
             <div class='flex access-content-row' >
                 <div class='access-content-wrapper' >Telephone</div>
-                <div class='access-content' ><a href="tel:03-6459-1250" class="tel-href" >03-6459-1250</a>
+                <div class='access-content' >
+                    <a href="tel:03-6459-1250" class="tel-href" >03-6459-1250</a><br>
+                    Please contact us by phone for the latest shop information
                 </div>
             </div>
             <div class='flex access-content-row' >
