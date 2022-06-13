@@ -140,6 +140,7 @@ h2{
     -ms-writing-mode: tb-rl;
     writing-mode: initial;
     font-size: 0.9rem;
+    text-underline-offset:0.1em;
 }
 .new-shop-notice.en{
     right: calc(50% - 290px);
