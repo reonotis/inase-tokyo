@@ -200,6 +200,7 @@ h2.en:before{
 
 a{
     color: #333;
+    text-underline-offset:0.2em;
 }
 
 .sns-area>a{
