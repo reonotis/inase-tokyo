@@ -60,11 +60,11 @@
                     7 counters<br>
                 </div>
             </div>
-            <!-- TODO -->
             <div class='flex access-content-row' id='access' >
                 <div class='access-content-wrapper' >Reservations</div>
                 <div class='access-content' >
-                    Please make a reservation on the reservation page or by phone （<a href="tel:03-6459-1250" class="tel-href" >03-6459-1250</a>）
+                    Please make a reservation on the reservation page or by phone （<a href="tel:03-6459-1250" class="tel-href" >03-6459-1250</a>）<br>
+                    * Dinner time is for junior high school students and above
                 </div>
             </div>
             <div class='flex access-content-row' >

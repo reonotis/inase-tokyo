@@ -31,7 +31,7 @@
             「素材そのままを活かすスタイル」を大切にしながら、視覚や嗅覚に刺激を与える新しい表現の和食を提供しています。 また、お客様に楽しい時間であったと感じていただけるように、心地よいサービスと雰囲気づくりをスタッフ一同心がけています。
                 <div class='click-for-commitment' >
                     <div class='flex' >
-                        料理長のこだわりは<a href="https://www.instagram.com/mizo3723/?igshid=YmMyMTA2M2Y=" target="_blank" >こちら</a>
+                        料理長の<a href="https://www.instagram.com/mizo3723/?igshid=YmMyMTA2M2Y=" target="_blank" >Instagram</a>
                     </div>
                 </div>
 

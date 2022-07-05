@@ -63,7 +63,8 @@
             <div class='flex access-content-row' id='access' >
                 <div class='access-content-wrapper' >ご予約</div>
                 <div class='access-content' >
-                    ご予約は<a href="https://www.tablecheck.com/ja/shops/inase/reserve/" target="_blank" >予約ページ</a>、またはお電話(<a href="tel:03-6459-1250" class="tel-href" >03-6459-1250</a>)にてお願い致します
+                    ご予約は<a href="https://www.tablecheck.com/ja/shops/inase/reserve/" target="_blank" >予約ページ</a>、またはお電話(<a href="tel:03-6459-1250" class="tel-href" >03-6459-1250</a>)にてお願い致します<br>
+                    ※ディナータイムは中学生以上とさせていただきます
                     <!-- ※お食事／テイクアウトのご予約はお電話からのみ受け付けております。何卒、ご了承ください。 -->
                 </div>
             </div>
