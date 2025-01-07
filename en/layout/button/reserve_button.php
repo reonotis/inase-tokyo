@@ -1,4 +1,4 @@
-<a href='https://www.tablecheck.com/ja/shops/inase/reserve/' target="_blank" >
+<a href='https://res-reserve.com/ja/restaurants/kappouinase' target="_blank" >
     <div class='reserve-section' >
         Reservations
     </div>
