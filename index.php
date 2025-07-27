@@ -5,7 +5,7 @@
         <div class="background-black" >
             <?php include './layout/header.php'; ?>
             <div class="top-contents-area" id="top">
-                <iframe src="./file/閉店のお知らせ.pdf" width="100vw" height="100vh">
+                <iframe src="./file/closed_notice.pdf">
                 </iframe>
             </div>
         </div>
